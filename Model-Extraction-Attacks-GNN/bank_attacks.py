@@ -8,7 +8,9 @@ from bank_gnn_model import BankGCN, train_target_model, evaluate_model
 from bank_data_loader import load_bank_data
 
 
-def run_attack(attack_type, data_csv, attack_node_ratio=0.25):
+def run_attack(
+    attack_type, data_csv, attack_node_ratio=0.25, sampling_strategy="random"
+):
     # 1. Setup Data
     G_nx, dgl_g, id_to_acc = load_bank_data(data_csv)
     features = dgl_g.ndata["feat"]
@@ -23,11 +25,22 @@ def run_attack(attack_type, data_csv, attack_node_ratio=0.25):
     print(f"Target Model Accuracy: {target_acc:.4f}")
 
     # 2. Attack Logic
-    # Sample attack nodes based on ratio
     node_indices = list(range(dgl_g.number_of_nodes()))
-    attack_nodes = random.sample(
-        node_indices, int(len(node_indices) * attack_node_ratio)
-    )
+
+    if sampling_strategy == "fraud":
+        # Adversary targets known/suspected fraud nodes
+        fraud_nodes = [i for i, label in enumerate(labels.numpy()) if label == 1]
+        attack_nodes = random.sample(
+            fraud_nodes,
+            min(len(fraud_nodes), int(len(node_indices) * attack_node_ratio)),
+        )
+        print(f"Sampling Strategy: Fraud-Targeted ({len(attack_nodes)} nodes)")
+    else:
+        # Random sampling
+        attack_nodes = random.sample(
+            node_indices, int(len(node_indices) * attack_node_ratio)
+        )
+        print(f"Sampling Strategy: Random ({len(attack_nodes)} nodes)")
 
     # Scenario logic (simplified version of Attack 0-6)
     # We adapt the taxonomy from the original project:

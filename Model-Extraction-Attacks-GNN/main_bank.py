@@ -21,6 +21,15 @@ def main():
         default=0.25,
         help="Proportion of nodes for attack",
     )
+    parser.add_argument(
+        "--sampling_strategy",
+        type=str,
+        default="random",
+        choices=["random", "fraud"],
+        help="Sampling strategy",
+    )
+    args = parser.parse_args()
+
     args = parser.parse_args()
 
     print(f"Adapting Project for Bank Transaction Data...")
@@ -39,7 +48,7 @@ def main():
 
     # 3. Run Attack
     surrogate_model, adv_g, adv_feat, fidelity = run_attack(
-        args.attack_type, args.csv, args.attack_node_ratio
+        args.attack_type, args.csv, args.attack_node_ratio, args.sampling_strategy
     )
 
     # 4. Visualize Extracted Graph
