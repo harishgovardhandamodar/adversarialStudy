@@ -7,8 +7,10 @@ from dgl.nn.pytorch import GraphConv
 class BankGCN(nn.Module):
     def __init__(self, in_feats, out_feats):
         super(BankGCN, self).__init__()
-        self.conv1 = GraphConv(in_feats, 16, activation=F.relu)
-        self.conv2 = GraphConv(16, out_feats)
+        self.conv1 = GraphConv(
+            in_feats, 16, activation=F.relu, allow_zero_in_degree=True
+        )
+        self.conv2 = GraphConv(16, out_feats, allow_zero_in_degree=True)
 
     def forward(self, g, features):
         h = self.conv1(g, features)
