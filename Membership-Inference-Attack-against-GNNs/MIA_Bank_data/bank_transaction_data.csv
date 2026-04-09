@@ -1,0 +1,31 @@
+# Bank Transaction Dataset for Membership Inference Attack Study
+
+This dataset simulates bank transaction data that would be suitable for graph-based membership inference attacks.
+
+## Dataset Structure
+
+The dataset contains transaction records with features that can be converted to graph representations for GNN classification.
+
+Column Description:
+- transaction_id: Unique identifier for each transaction
+- amount: Transaction amount in USD
+- customer_id: Customer identifier
+- timestamp: Transaction timestamp
+- category: Transaction category (e.g., shopping, dining, transfer)
+- merchant: Merchant or service provider name
+- location: Geographic location
+- is_fraud: Flag indicating fraudulent transaction (0 = normal, 1 = fraud)
+
+## Sample Data
+
+transaction_id,customer_id,amount,timestamp,category,merchant,location,is_fraud
+TXN8622771982,CUST001,1497.76,2023-01-15 10:30:00,shopping,Amazon,New York,0
+TXN8620085823,CUST002,1364.80,2023-01-15 11:45:00,dining,Starbucks,Los Angeles,0
+TXN8623551987,CUST003,234.50,2023-01-15 14:20:00,shopping,Target,Chicago,0
+TXN8621128902,CUST001,67.90,2023-01-15 16:15:00,shopping,Apple Store,San Francisco,0
+TXN8624451789,CUST004,2999.00,2023-01-15 18:30:00,shopping,Electronics Store,Seattle,0
+TXN8625521945,CUST005,45.20,2023-01-15 19:45:00,dining,Pizza Place,Boston,0
+TXN8626681345,CUST006,1200.00,2023-01-15 20:20:00,transfer,Bank Transfer,Denver,0
+TXN8627732956,CUST007,89.99,2023-01-15 21:10:00,shopping,Online Retailer,Miami,0
+TXN8628813498,CUST008,785.60,2023-01-15 22:05:00,dining,Burger King,Phoenix,0
+TXN8629924367,CUST009,340.50,2023-01-15 23:15:00,shopping,Department Store,Atlanta,1

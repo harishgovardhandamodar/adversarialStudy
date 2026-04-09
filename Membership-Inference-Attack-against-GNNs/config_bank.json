@@ -1,0 +1,26 @@
+{
+    "model": "MLP",
+    "dataset": "MIA_Bank_data/bank_transaction_data.csv",
+    "out_dir": "./",
+    "gpu": {
+        "use": false,
+        "id": 0
+    },
+    "params": {
+        "epochs": 100,
+        "batch_size": 32,
+        "init_lr": 0.001,
+        "lr_reduce_factor": 0.5,
+        "lr_schedule_patience": 10,
+        "min_lr": 1e-5,
+        "weight_decay": 1e-4,
+        "print_epoch_interval": 5,
+        "max_time": 24
+    },
+    "net_params": {
+        "hidden_dim": 64,
+        "out_dim": 1,
+        "n_layers": 3,
+        "dropout": 0.5
+    }
+}
