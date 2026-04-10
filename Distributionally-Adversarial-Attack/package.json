@@ -1,0 +1,27 @@
+{
+  "name": "distributionally-adversarial-attack",
+  "version": "1.0.0",
+  "description": "A distributionally adversarial attack framework for bank transaction data",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "attack",
+    "privacy",
+    "bank",
+    "transactions",
+    "adversarial"
+  ],
+  "author": "Security Researcher",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0"
+  }
+}

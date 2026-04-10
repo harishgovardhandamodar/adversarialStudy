@@ -4,3 +4,7 @@ Model-Extraction-Attacks-GNN/bank_transaction_data_large.csv
 Model-Extraction-Attacks-GNN/shadow_4.csv
 /Membership-Inference-Attack-against-GNNs/Archive
 Membership-Inference-Attack-against-GNNs/bank_transaction_data_large.csv
+/Distributionally-Adversarial-Attack/convex_adversarial-master
+/Distributionally-Adversarial-Attack/fashion-mnist-master
+/Distributionally-Adversarial-Attack/mnist_challenge-master
+Distributionally-Adversarial-Attack/bank_transaction_data_large.csv
