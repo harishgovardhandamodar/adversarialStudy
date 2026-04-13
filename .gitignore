@@ -9,3 +9,4 @@ Membership-Inference-Attack-against-GNNs/bank_transaction_data_large.csv
 /Distributionally-Adversarial-Attack/mnist_challenge-master
 Distributionally-Adversarial-Attack/bank_transaction_data_large.csv
 diffusion-model/credit_card_transactions.csv
+diffusion-model/Denoising-Diffusion-Model-DP-Data/credit_card_transactions.csv
