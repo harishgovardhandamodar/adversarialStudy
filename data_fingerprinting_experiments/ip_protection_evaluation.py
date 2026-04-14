@@ -63,16 +63,25 @@ class AdvancedCorrelationPreservingFingerprinting:
         self, original: np.ndarray, fingerprinted: np.ndarray
     ) -> np.ndarray:
         """Enhanced correlation preservation method."""
+        # For very large datasets, use a subsample for correlation calculation to avoid memory issues
+        max_samples = 10000
+        if len(original) > max_samples:
+            # Sample data for correlation calculation
+            sample_indices = np.random.choice(len(original), max_samples, replace=False)
+            orig_sample = original[sample_indices]
+            fp_sample = fingerprinted[sample_indices]
+        else:
+            orig_sample = original
+            fp_sample = fingerprinted
+
         # Calculate original and fingerprinted correlations
-        orig_corr = np.corrcoef(original.T)
-        fp_corr = np.corrcoef(fingerprinted.T)
+        orig_corr = np.corrcoef(orig_sample.T)
+        fp_corr = np.corrcoef(fp_sample.T)
 
-        # Simple approach: just scale the fingerprinted data to preserve some
-        # basic statistical properties while maintaining privacy
-        fingerprinted_adjusted = fingerprinted.copy()
+        # Weighted adjustment to preserve correlations
+        adjustment = self.correlation_preservation_strength * (orig_corr - fp_corr)
+        fingerprinted_adjusted = fingerprinted + adjustment
 
-        # This is a simplified approach - in a full implementation,
-        # more sophisticated methods would be used for preserving neighborhood correlations
         return fingerprinted_adjusted
 
     def _add_adaptive_noise(self, data: np.ndarray) -> np.ndarray:

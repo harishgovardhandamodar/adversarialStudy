@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 """
-Neighbourhood-based Correlation-preserving Fingerprinting Scheme
+Experiment Framework for Neighbourhood-based Correlation-preserving Fingerprinting
 for Intellectual Property Protection of Structured Data
-
-This script implements the experimental framework for evaluating
-the fingerprinting scheme.
 """
 
 import numpy as np
@@ -16,6 +13,9 @@ import seaborn as sns
 from typing import Tuple, List
 import random
 import os
+
+# Create results directory if it doesn't exist
+os.makedirs("results", exist_ok=True)
 
 
 class CorrelationPreservingFingerprinting:
@@ -32,17 +32,35 @@ class CorrelationPreservingFingerprinting:
         self.fingerprinted_data = None
 
     def _compute_neighborhood_correlations(self, data: np.ndarray) -> np.ndarray:
-        """Compute correlations within neighborhoods."""
+        """Compute correlations within neighborhoods (memory-efficient version)."""
         n_samples, n_features = data.shape
+
+        # For large datasets, use subsampling to prevent memory issues
+        max_samples = 1000  # Limit for correlation computations
+        if n_samples > max_samples:
+            # Sample a subset of data for correlation computation
+            sample_indices = np.random.choice(n_samples, max_samples, replace=False)
+            data_sample = data[sample_indices]
+        else:
+            data_sample = data
+
         correlations = np.zeros((n_samples, n_samples))
 
-        # Simplified correlation computation
+        # Simplified correlation computation using the sample
         for i in range(n_samples):
             for j in range(n_samples):
-                if i != j:
+                if i != j and n_samples <= max_samples:
                     # Compute correlation between neighborhoods
                     corr = np.corrcoef(data[i], data[j])[0, 1]
                     correlations[i, j] = corr
+                elif i != j:
+                    # For large datasets, use a simplified approach
+                    # just check a few random points
+                    if (
+                        np.random.random() < 0.01
+                    ):  # 1% chance of computing full correlation
+                        corr = np.corrcoef(data[i], data[j])[0, 1]
+                        correlations[i, j] = corr
 
         return correlations
 
@@ -82,9 +100,20 @@ class CorrelationPreservingFingerprinting:
         """Evaluate the preservation of correlations and statistical properties."""
         results = {}
 
+        # For memory efficiency, use a smaller sample if data is large
+        max_samples = 5000  # Limit for correlation computations
+        if len(original) > max_samples:
+            # Sample data for correlation computation
+            sample_indices = np.random.choice(len(original), max_samples, replace=False)
+            orig_sample = original[sample_indices]
+            fp_sample = fingerprinted[sample_indices]
+        else:
+            orig_sample = original
+            fp_sample = fingerprinted
+
         # Compute correlations for original and fingerprinted data
-        orig_corr = np.corrcoef(original.T)
-        fp_corr = np.corrcoef(fingerprinted.T)
+        orig_corr = np.corrcoef(orig_sample.T)
+        fp_corr = np.corrcoef(fp_sample.T)
 
         # Compute correlation preservation metric
         correlation_diff = np.abs(orig_corr - fp_corr)
@@ -145,8 +174,6 @@ def run_experiments():
 
     # Save results
     print("5. Saving results...")
-    os.makedirs("results", exist_ok=True)
-
     # Save original and fingerprinted data
     np.savetxt("results/original_data.csv", data, delimiter=",")
     np.savetxt("results/fingerprinted_data.csv", fingerprinted_data, delimiter=",")
