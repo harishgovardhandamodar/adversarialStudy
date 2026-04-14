@@ -11,3 +11,11 @@ Distributionally-Adversarial-Attack/bank_transaction_data_large.csv
 diffusion-model/credit_card_transactions.csv
 diffusion-model/Denoising-Diffusion-Model-DP-Data/credit_card_transactions.csv
 Data-fingerprinting/credit_card_transactions.csv
+/data_fingerprinting_experiments/.agents
+/data_fingerprinting_experiments/data-fingerprint
+data_fingerprinting_experiments/credit_card_transactions.csv
+/Imperceptibility-of-Tabular-Adversarial-attack/.agents
+*.npy
+/Imperceptibility-of-Tabular-Adversarial-attack/results
+/Imperceptibility-of-Tabular-Adversarial-attack/saved_models
+Imperceptibility-of-Tabular-Adversarial-attack/bank_transaction_data_large.csv

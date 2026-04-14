@@ -1,0 +1,5 @@
+Correlation-preserving Fingerprinting Evaluation Results
+==================================================
+mean_correlation_diff: 0.024023
+max_correlation_diff: 0.032693
+mse: 0.152647

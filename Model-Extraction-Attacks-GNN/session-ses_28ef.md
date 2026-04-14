@@ -2478,7 +2478,7 @@ I have created the Jupyter notebook `demonstration-2-4.ipynb` to specifically co
 
 ## User
 
-Prepare Plab-Implementation-Observations.md file Explain in detail with mermaid diagrams, describe this project, How this is built, explain the attacks with mermaid diagrams, finally include all observations including the plots generated, include take away sections for Data scientists, compliance officers and executives, and finally prepare executive-summary.md
+Prepare Plan-Implementation-Observations.md file Explain in detail with mermaid diagrams, describe this project, How this is built, explain the attacks with mermaid diagrams, finally include all observations including the plots generated, include take away sections for Data scientists, compliance officers and executives, and finally prepare executive-summary.md
 
 ---
 

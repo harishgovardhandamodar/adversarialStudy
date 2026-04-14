@@ -1,0 +1,1001 @@
+txn_id,amount,date,time,merchant_category,merchant_name,zip_code,state,fraud_indicator
+txn_0000,243.89,2023-01-07,20:00:00,utilities,Kris-Ritchie,16265,FL,0
+txn_0001,74.72,2023-01-24,07:00:00,food_dining,Kutch and Sons,51090,WA,0
+txn_0002,99.3,2023-01-12,00:00:00,entertainment,Schmeler-Goldner,95305,WA,1
+txn_0003,167.0,2023-01-28,09:00:00,grocery_net,Stark-Batz,12747,WA,1
+txn_0004,98.51,2023-01-05,02:00:00,utilities,Pacocha-Bauch,13890,IL,0
+txn_0005,42.94,2023-01-18,13:00:00,food_dining,Stark-Batz,53001,CA,1
+txn_0006,70.17,2023-01-29,11:00:00,travel,Schmeler-Goldner,27159,FL,0
+txn_0007,42.51,2023-01-30,01:00:00,food_dining,Durgan-Auer,87189,WA,0
+txn_0008,98.26,2023-01-28,22:00:00,health_beauty,Durgan-Auer,11016,WA,0
+txn_0009,358.44,2023-01-15,17:00:00,entertainment,Weissnat Group,19268,TX,0
+txn_0010,18.93,2023-01-09,06:00:00,grocery_net,Hessel LLC,72592,NY,0
+txn_0011,139.12,2023-01-03,07:00:00,grocery_net,Bauch-Raynor,71858,CA,1
+txn_0012,298.4,2023-01-09,06:00:00,grocery_net,Boyer PLC,40535,NY,1
+txn_0013,95.05,2023-01-30,22:00:00,travel,Weissnat Group,89575,IL,0
+txn_0014,149.67,2023-01-03,13:00:00,travel,Kutch and Sons,62992,IL,0
+txn_0015,199.65,2023-01-27,06:00:00,health_beauty,Krajcik-Schamberger,10206,TX,1
+txn_0016,21.2,2023-01-07,22:00:00,entertainment,Cronin-Blick,66044,FL,0
+txn_0017,170.36,2023-01-22,18:00:00,shopping_pos,Funk Group,32299,TX,1
+txn_0018,34.23,2023-01-12,11:00:00,health_beauty,Kutch and Sons,35939,WA,0
+txn_0019,155.25,2023-01-30,06:00:00,food_dining,Funk Group,33776,CA,0
+txn_0020,195.56,2023-01-27,07:00:00,health_beauty,Funk Group,13748,CA,0
+txn_0021,110.84,2023-01-27,14:00:00,utilities,Schmeler-Goldner,71087,CA,0
+txn_0022,82.34,2023-01-17,02:00:00,misc_pos,Funk Group,77172,CA,0
+txn_0023,81.58,2023-01-23,21:00:00,misc_pos,DuBuque LLC,48623,CA,0
+txn_0024,208.1,2023-01-23,05:00:00,utilities,Boyer PLC,80467,FL,0
+txn_0025,286.82,2023-01-20,04:00:00,utilities,Metc-Boehm,75733,WA,0
+txn_0026,34.35,2023-01-19,03:00:00,food_dining,Pacocha-Bauch,44754,FL,0
+txn_0027,84.24,2023-01-01,08:00:00,food_dining,Funk Group,93879,TX,0
+txn_0028,183.88,2023-01-03,09:00:00,health_beauty,Krajcik-Schamberger,26646,NY,0
+txn_0029,153.37,2023-01-02,16:00:00,food_dining,Pacocha-Bauch,41616,WA,0
+txn_0030,192.46,2023-01-19,02:00:00,grocery_net,Stark-Batz,25151,FL,1
+txn_0031,144.67,2023-01-24,00:00:00,utilities,Metc-Boehm,39299,FL,0
+txn_0032,132.99,2023-01-25,02:00:00,health_beauty,Weissnat Group,78497,WA,0
+txn_0033,447.06,2023-01-29,15:00:00,shopping_pos,Metc-Boehm,48467,CA,1
+txn_0034,23.59,2023-01-17,02:00:00,travel,Durgan-Auer,80271,CA,0
+txn_0035,81.71,2023-01-14,21:00:00,travel,Metc-Boehm,89909,WA,0
+txn_0036,195.72,2023-01-28,00:00:00,entertainment,DuBuque LLC,49790,CA,0
+txn_0037,148.94,2023-01-17,02:00:00,food_dining,Bauch-Raynor,83744,NY,0
+txn_0038,75.57,2023-01-20,00:00:00,food_dining,Bauch-Raynor,75726,IL,0
+txn_0039,311.17,2023-01-18,02:00:00,grocery_net,Funk Group,44584,TX,1
+txn_0040,95.02,2023-01-22,14:00:00,misc_pos,Durgan-Auer,28070,TX,0
+txn_0041,110.76,2023-01-01,07:00:00,grocery_net,Boyer PLC,88069,IL,1
+txn_0042,76.18,2023-01-13,23:00:00,grocery_net,DuBuque LLC,98891,TX,1
+txn_0043,14.88,2023-01-14,07:00:00,grocery_net,Pacocha-Bauch,80031,WA,0
+txn_0044,28.88,2023-01-19,21:00:00,travel,Funk Group,62921,WA,0
+txn_0045,33.09,2023-01-17,21:00:00,misc_pos,Boyer PLC,80313,WA,0
+txn_0046,9.55,2023-01-05,11:00:00,food_dining,Schmeler-Goldner,97142,NY,0
+txn_0047,113.97,2023-01-23,02:00:00,travel,Cronin-Blick,82615,NY,0
+txn_0048,133.33,2023-01-26,22:00:00,food_dining,Bauch-Raynor,42217,IL,0
+txn_0049,55.72,2023-01-26,00:00:00,entertainment,Schmeler-Goldner,26896,TX,0
+txn_0050,95.77,2023-01-22,04:00:00,travel,Weissnat Group,69638,FL,0
+txn_0051,264.51,2023-01-22,04:00:00,shopping_pos,Weissnat Group,94664,IL,1
+txn_0052,68.93,2023-01-04,06:00:00,entertainment,Weissnat Group,72752,WA,0
+txn_0053,271.99,2023-01-04,04:00:00,health_beauty,Boyer PLC,78385,NY,0
+txn_0054,157.36,2023-01-13,04:00:00,utilities,Kerluke Inc,14611,TX,1
+txn_0055,345.35,2023-01-12,23:00:00,food_dining,Kris-Ritchie,82369,FL,0
+txn_0056,10.17,2023-01-11,09:00:00,utilities,Kerluke Inc,99643,IL,0
+txn_0057,196.56,2023-01-29,07:00:00,misc_pos,Kerluke Inc,25305,TX,0
+txn_0058,49.25,2023-01-18,20:00:00,food_dining,Funk Group,36092,FL,0
+txn_0059,147.59,2023-01-24,08:00:00,entertainment,Boyer PLC,57295,FL,0
+txn_0060,278.56,2023-01-17,17:00:00,food_dining,Weissnat Group,75510,WA,0
+txn_0061,143.06,2023-01-17,16:00:00,grocery_net,Bauch-Raynor,24397,NY,1
+txn_0062,30.22,2023-01-17,18:00:00,entertainment,Metc-Boehm,89459,NY,0
+txn_0063,98.37,2023-01-19,19:00:00,health_beauty,Schmeler-Goldner,70921,IL,0
+txn_0064,164.36,2023-01-04,20:00:00,shopping_pos,Pacocha-Bauch,70566,CA,1
+txn_0065,112.27,2023-01-29,16:00:00,food_dining,Boyer PLC,54261,WA,0
+txn_0066,92.66,2023-01-08,18:00:00,health_beauty,Kutch and Sons,23807,IL,0
+txn_0067,99.23,2023-01-04,12:00:00,travel,Krajcik-Schamberger,45909,NY,0
+txn_0068,105.06,2023-01-30,06:00:00,shopping_pos,Boyer PLC,54482,IL,1
+txn_0069,648.95,2023-01-28,19:00:00,misc_pos,Hessel LLC,67799,IL,0
+txn_0070,150.18,2023-01-25,16:00:00,travel,Stark-Batz,43591,CA,0
+txn_0071,179.99,2023-01-29,12:00:00,entertainment,Schmeler-Goldner,30559,WA,0
+txn_0072,125.45,2023-01-15,17:00:00,food_dining,Bauch-Raynor,27640,CA,0
+txn_0073,103.13,2023-01-03,21:00:00,health_beauty,Kutch and Sons,29087,CA,0
+txn_0074,38.63,2023-01-26,03:00:00,food_dining,Boyer PLC,94665,NY,0
+txn_0075,117.35,2023-01-04,08:00:00,entertainment,Schmeler-Goldner,30159,FL,0
+txn_0076,10.81,2023-01-14,12:00:00,utilities,Schmeler-Goldner,55445,TX,0
+txn_0077,108.99,2023-01-24,09:00:00,misc_pos,Stark-Batz,68141,TX,0
+txn_0078,108.88,2023-01-15,17:00:00,grocery_net,Metc-Boehm,72292,TX,1
+txn_0079,28.33,2023-01-13,16:00:00,shopping_pos,Metc-Boehm,30384,TX,1
+txn_0080,98.26,2023-01-21,02:00:00,health_beauty,Kutch and Sons,33574,IL,0
+txn_0081,91.43,2023-01-17,18:00:00,misc_pos,Boyer PLC,66397,CA,0
+txn_0082,91.34,2023-01-28,01:00:00,utilities,Kerluke Inc,17239,TX,0
+txn_0083,121.15,2023-01-12,17:00:00,shopping_pos,Bauch-Raynor,52944,WA,1
+txn_0084,224.46,2023-01-15,22:00:00,travel,Krajcik-Schamberger,11252,IL,0
+txn_0085,203.45,2023-01-06,01:00:00,health_beauty,Funk Group,65393,TX,0
+txn_0086,154.61,2023-01-15,23:00:00,grocery_net,Metc-Boehm,80173,TX,1
+txn_0087,129.4,2023-01-29,04:00:00,grocery_net,Bauch-Raynor,49811,TX,1
+txn_0088,82.39,2023-01-06,01:00:00,entertainment,Durgan-Auer,24388,TX,0
+txn_0089,146.04,2023-01-15,18:00:00,shopping_pos,Weissnat Group,27144,FL,1
+txn_0090,214.13,2023-01-25,23:00:00,food_dining,Durgan-Auer,93807,FL,0
+txn_0091,36.2,2023-01-19,18:00:00,misc_pos,Hessel LLC,67108,IL,0
+txn_0092,69.02,2023-01-26,11:00:00,grocery_net,Kutch and Sons,61745,CA,0
+txn_0093,137.45,2023-01-26,08:00:00,shopping_pos,Hessel LLC,20488,CA,1
+txn_0094,91.49,2023-01-26,16:00:00,entertainment,Weissnat Group,74291,CA,0
+txn_0095,286.65,2023-01-24,14:00:00,travel,Pacocha-Bauch,18717,TX,0
+txn_0096,880.71,2023-01-19,23:00:00,health_beauty,Boyer PLC,15126,FL,0
+txn_0097,100.72,2023-01-18,12:00:00,food_dining,Krajcik-Schamberger,98869,FL,0
+txn_0098,103.76,2023-01-07,16:00:00,grocery_net,Funk Group,16229,TX,1
+txn_0099,91.03,2023-01-13,16:00:00,food_dining,Cronin-Blick,16168,NY,0
+txn_0100,65.53,2023-01-08,14:00:00,misc_pos,Metc-Boehm,87735,CA,0
+txn_0101,316.99,2023-01-26,19:00:00,health_beauty,Kutch and Sons,58447,TX,0
+txn_0102,18.56,2023-01-22,20:00:00,grocery_net,Stark-Batz,11605,NY,0
+txn_0103,81.95,2023-01-23,23:00:00,travel,Cronin-Blick,23046,FL,0
+txn_0104,102.04,2023-01-04,10:00:00,food_dining,DuBuque LLC,97886,WA,0
+txn_0105,141.14,2023-01-19,05:00:00,utilities,Cronin-Blick,63441,FL,0
+txn_0106,159.23,2023-01-20,18:00:00,food_dining,Metc-Boehm,59376,NY,0
+txn_0107,43.2,2023-01-05,05:00:00,health_beauty,Boyer PLC,11917,FL,0
+txn_0108,358.5,2023-01-10,23:00:00,misc_pos,Metc-Boehm,92180,TX,0
+txn_0109,15.03,2023-01-05,00:00:00,food_dining,DuBuque LLC,29216,CA,0
+txn_0110,3.95,2023-01-18,11:00:00,entertainment,Kerluke Inc,77444,FL,0
+txn_0111,66.89,2023-01-01,02:00:00,shopping_pos,Schmeler-Goldner,15415,WA,1
+txn_0112,126.6,2023-01-21,02:00:00,health_beauty,Schmeler-Goldner,25524,IL,0
+txn_0113,119.73,2023-01-10,12:00:00,food_dining,Cronin-Blick,94056,TX,0
+txn_0114,19.33,2023-01-01,05:00:00,entertainment,Bauch-Raynor,97062,CA,0
+txn_0115,33.73,2023-01-21,13:00:00,misc_pos,Funk Group,46455,FL,0
+txn_0116,11.57,2023-01-15,19:00:00,utilities,Boyer PLC,81324,CA,0
+txn_0117,69.08,2023-01-29,03:00:00,shopping_pos,Funk Group,20789,CA,0
+txn_0118,149.24,2023-01-05,09:00:00,misc_pos,Metc-Boehm,53872,WA,0
+txn_0119,39.39,2023-01-20,23:00:00,entertainment,Pacocha-Bauch,50631,IL,0
+txn_0120,11.33,2023-01-19,18:00:00,misc_pos,Hessel LLC,85683,NY,0
+txn_0121,60.84,2023-01-08,09:00:00,shopping_pos,Pacocha-Bauch,86325,WA,0
+txn_0122,133.11,2023-01-25,17:00:00,utilities,Hessel LLC,25328,NY,0
+txn_0123,140.39,2023-01-04,15:00:00,food_dining,Schmeler-Goldner,74644,IL,0
+txn_0124,100.55,2023-01-08,13:00:00,shopping_pos,Metc-Boehm,78904,WA,1
+txn_0125,29.29,2023-01-21,04:00:00,health_beauty,Kerluke Inc,11645,NY,0
+txn_0126,1879.37,2023-01-21,08:00:00,travel,Kutch and Sons,67545,NY,0
+txn_0127,121.94,2023-01-25,19:00:00,travel,Bauch-Raynor,83509,TX,0
+txn_0128,150.22,2023-01-22,18:00:00,food_dining,Kris-Ritchie,77526,NY,0
+txn_0129,142.81,2023-01-29,16:00:00,grocery_net,Durgan-Auer,14757,TX,1
+txn_0130,67.15,2023-01-07,16:00:00,utilities,Hessel LLC,85520,IL,0
+txn_0131,30.37,2023-01-13,16:00:00,shopping_pos,Durgan-Auer,52460,WA,0
+txn_0132,28.48,2023-01-02,17:00:00,travel,Bauch-Raynor,16645,NY,0
+txn_0133,137.26,2023-01-01,03:00:00,travel,Bauch-Raynor,62487,IL,0
+txn_0134,40.47,2023-01-23,00:00:00,food_dining,DuBuque LLC,91974,NY,0
+txn_0135,373.02,2023-01-01,07:00:00,entertainment,Funk Group,86534,FL,0
+txn_0136,89.87,2023-01-08,14:00:00,food_dining,Kerluke Inc,74929,FL,0
+txn_0137,75.2,2023-01-16,10:00:00,health_beauty,Durgan-Auer,64771,IL,0
+txn_0138,27.3,2023-01-07,09:00:00,travel,DuBuque LLC,26032,IL,1
+txn_0139,37.67,2023-01-02,17:00:00,entertainment,Pacocha-Bauch,52880,IL,0
+txn_0140,45.64,2023-01-05,04:00:00,food_dining,Schmeler-Goldner,88757,WA,0
+txn_0141,36.29,2023-01-20,02:00:00,food_dining,Kutch and Sons,27771,CA,0
+txn_0142,163.12,2023-01-17,18:00:00,misc_pos,Kerluke Inc,12573,CA,0
+txn_0143,81.35,2023-01-22,21:00:00,grocery_net,Funk Group,61693,NY,0
+txn_0144,199.8,2023-01-18,05:00:00,shopping_pos,Kutch and Sons,71268,TX,1
+txn_0145,130.35,2023-01-05,16:00:00,misc_pos,Metc-Boehm,88411,IL,1
+txn_0146,100.98,2023-01-10,06:00:00,entertainment,Stark-Batz,69052,CA,0
+txn_0147,396.51,2023-01-02,13:00:00,health_beauty,Schmeler-Goldner,48709,FL,0
+txn_0148,93.2,2023-01-04,10:00:00,utilities,Kris-Ritchie,34762,FL,0
+txn_0149,69.78,2023-01-05,21:00:00,health_beauty,Durgan-Auer,99399,CA,0
+txn_0150,43.3,2023-01-30,16:00:00,shopping_pos,Pacocha-Bauch,34058,IL,0
+txn_0151,93.06,2023-01-09,08:00:00,entertainment,DuBuque LLC,45111,CA,0
+txn_0152,143.39,2023-01-05,17:00:00,shopping_pos,Bauch-Raynor,96123,NY,1
+txn_0153,736.01,2023-01-02,05:00:00,health_beauty,Bauch-Raynor,33051,FL,0
+txn_0154,133.94,2023-01-24,15:00:00,health_beauty,Schmeler-Goldner,10338,IL,0
+txn_0155,167.02,2023-01-25,07:00:00,health_beauty,Weissnat Group,65761,CA,0
+txn_0156,111.8,2023-01-16,09:00:00,travel,Boyer PLC,80342,CA,0
+txn_0157,91.46,2023-01-15,13:00:00,travel,Boyer PLC,18820,CA,0
+txn_0158,71.31,2023-01-07,19:00:00,health_beauty,Krajcik-Schamberger,29426,TX,0
+txn_0159,56.61,2023-01-24,13:00:00,grocery_net,Funk Group,45435,NY,0
+txn_0160,88.58,2023-01-15,06:00:00,food_dining,Funk Group,16640,NY,0
+txn_0161,167.35,2023-01-13,15:00:00,grocery_net,DuBuque LLC,89273,NY,1
+txn_0162,161.14,2023-01-27,02:00:00,utilities,Weissnat Group,49974,WA,0
+txn_0163,172.77,2023-01-12,20:00:00,health_beauty,Hessel LLC,22984,NY,0
+txn_0164,57.76,2023-01-03,16:00:00,grocery_net,Kutch and Sons,43933,WA,0
+txn_0165,634.85,2023-01-25,04:00:00,health_beauty,DuBuque LLC,67775,CA,0
+txn_0166,35.7,2023-01-11,04:00:00,entertainment,Kutch and Sons,47573,WA,0
+txn_0167,66.81,2023-01-20,06:00:00,grocery_net,DuBuque LLC,72211,FL,0
+txn_0168,92.17,2023-01-10,13:00:00,entertainment,Bauch-Raynor,50042,TX,0
+txn_0169,128.14,2023-01-06,23:00:00,shopping_pos,Boyer PLC,91412,IL,1
+txn_0170,25.91,2023-01-29,16:00:00,misc_pos,Pacocha-Bauch,52874,TX,0
+txn_0171,262.82,2023-01-24,16:00:00,health_beauty,DuBuque LLC,34578,FL,0
+txn_0172,97.13,2023-01-11,01:00:00,entertainment,Cronin-Blick,93560,FL,0
+txn_0173,18.79,2023-01-12,01:00:00,grocery_net,Bauch-Raynor,39192,CA,0
+txn_0174,124.34,2023-01-27,07:00:00,health_beauty,Krajcik-Schamberger,13972,TX,0
+txn_0175,41.7,2023-01-13,04:00:00,entertainment,Weissnat Group,55648,TX,0
+txn_0176,376.01,2023-01-08,01:00:00,utilities,Durgan-Auer,96231,FL,0
+txn_0177,87.28,2023-01-09,15:00:00,grocery_net,Schmeler-Goldner,43130,IL,0
+txn_0178,166.86,2023-01-13,10:00:00,entertainment,Funk Group,84553,CA,1
+txn_0179,226.46,2023-01-21,10:00:00,utilities,Boyer PLC,46509,TX,0
+txn_0180,152.74,2023-01-14,12:00:00,misc_pos,Funk Group,85418,CA,0
+txn_0181,196.1,2023-01-13,23:00:00,food_dining,DuBuque LLC,11007,WA,0
+txn_0182,80.37,2023-01-30,14:00:00,food_dining,Schmeler-Goldner,36660,IL,0
+txn_0183,106.71,2023-01-18,03:00:00,utilities,Pacocha-Bauch,17491,FL,0
+txn_0184,141.9,2023-01-27,23:00:00,misc_pos,Metc-Boehm,77889,WA,0
+txn_0185,163.63,2023-01-20,02:00:00,shopping_pos,Pacocha-Bauch,37083,IL,1
+txn_0186,710.18,2023-01-14,01:00:00,travel,Boyer PLC,23025,IL,0
+txn_0187,79.16,2023-01-23,14:00:00,travel,Stark-Batz,85932,FL,0
+txn_0188,100.08,2023-01-30,16:00:00,shopping_pos,Kris-Ritchie,43756,IL,1
+txn_0189,84.43,2023-01-27,04:00:00,utilities,Krajcik-Schamberger,63331,WA,0
+txn_0190,11.93,2023-01-29,01:00:00,travel,Metc-Boehm,58290,CA,0
+txn_0191,51.85,2023-01-27,15:00:00,food_dining,Krajcik-Schamberger,31563,WA,0
+txn_0192,754.85,2023-01-21,11:00:00,shopping_pos,Funk Group,15655,NY,1
+txn_0193,73.33,2023-01-20,11:00:00,grocery_net,Funk Group,44531,CA,0
+txn_0194,23.28,2023-01-21,21:00:00,health_beauty,Krajcik-Schamberger,59268,TX,0
+txn_0195,94.99,2023-01-30,17:00:00,entertainment,Durgan-Auer,40015,TX,0
+txn_0196,11.19,2023-01-25,12:00:00,shopping_pos,Weissnat Group,74288,NY,0
+txn_0197,81.78,2023-01-15,13:00:00,food_dining,Kerluke Inc,84319,WA,0
+txn_0198,83.85,2023-01-08,09:00:00,grocery_net,Pacocha-Bauch,32431,TX,0
+txn_0199,38.6,2023-01-26,19:00:00,entertainment,Kerluke Inc,60069,TX,0
+txn_0200,85.79,2023-01-02,14:00:00,misc_pos,Boyer PLC,75641,NY,0
+txn_0201,601.46,2023-01-09,05:00:00,grocery_net,Metc-Boehm,36015,CA,1
+txn_0202,158.4,2023-01-28,17:00:00,utilities,Durgan-Auer,13389,NY,0
+txn_0203,90.95,2023-01-09,02:00:00,travel,Boyer PLC,46877,FL,0
+txn_0204,383.81,2023-01-13,11:00:00,travel,Schmeler-Goldner,11560,IL,0
+txn_0205,62.54,2023-01-23,20:00:00,travel,Hessel LLC,99899,TX,1
+txn_0206,9.03,2023-01-09,23:00:00,utilities,Kutch and Sons,70315,TX,0
+txn_0207,98.27,2023-01-12,06:00:00,grocery_net,Krajcik-Schamberger,82541,IL,0
+txn_0208,21.38,2023-01-28,03:00:00,entertainment,Pacocha-Bauch,35963,WA,0
+txn_0209,17.71,2023-01-15,01:00:00,food_dining,Weissnat Group,36017,NY,0
+txn_0210,1098.54,2023-01-26,18:00:00,shopping_pos,Boyer PLC,52229,IL,1
+txn_0211,122.68,2023-01-26,02:00:00,grocery_net,Krajcik-Schamberger,29975,NY,1
+txn_0212,25.77,2023-01-14,11:00:00,misc_pos,Funk Group,98397,TX,0
+txn_0213,144.67,2023-01-14,14:00:00,health_beauty,Cronin-Blick,80135,CA,0
+txn_0214,184.27,2023-01-03,01:00:00,shopping_pos,Kerluke Inc,23760,NY,1
+txn_0215,17.84,2023-01-29,09:00:00,utilities,Cronin-Blick,86619,WA,0
+txn_0216,113.02,2023-01-11,07:00:00,food_dining,Kutch and Sons,33499,CA,0
+txn_0217,24.53,2023-01-05,11:00:00,entertainment,Krajcik-Schamberger,19847,NY,0
+txn_0218,18.86,2023-01-18,19:00:00,food_dining,Metc-Boehm,91537,CA,0
+txn_0219,130.2,2023-01-01,04:00:00,shopping_pos,Kutch and Sons,19200,FL,1
+txn_0220,32.79,2023-01-18,20:00:00,food_dining,Boyer PLC,11239,FL,1
+txn_0221,92.66,2023-01-11,14:00:00,utilities,Krajcik-Schamberger,78785,NY,0
+txn_0222,233.35,2023-01-20,12:00:00,utilities,Funk Group,11969,TX,0
+txn_0223,60.38,2023-01-05,05:00:00,utilities,Hessel LLC,58320,TX,0
+txn_0224,58.68,2023-01-15,07:00:00,grocery_net,DuBuque LLC,60138,CA,0
+txn_0225,50.57,2023-01-16,20:00:00,health_beauty,Weissnat Group,88916,CA,0
+txn_0226,134.35,2023-01-09,05:00:00,utilities,DuBuque LLC,70576,CA,0
+txn_0227,63.55,2023-01-29,01:00:00,food_dining,Kris-Ritchie,39165,NY,0
+txn_0228,182.4,2023-01-13,17:00:00,misc_pos,Metc-Boehm,35426,IL,0
+txn_0229,91.36,2023-01-26,11:00:00,grocery_net,Krajcik-Schamberger,19108,FL,0
+txn_0230,33.01,2023-01-03,16:00:00,utilities,Kerluke Inc,32443,WA,0
+txn_0231,766.64,2023-01-09,13:00:00,misc_pos,Boyer PLC,32612,TX,0
+txn_0232,166.99,2023-01-05,11:00:00,entertainment,Schmeler-Goldner,91889,IL,0
+txn_0233,4.43,2023-01-27,11:00:00,misc_pos,Cronin-Blick,68348,IL,0
+txn_0234,87.09,2023-01-21,14:00:00,utilities,Funk Group,97163,CA,0
+txn_0235,26.87,2023-01-29,13:00:00,misc_pos,Bauch-Raynor,60115,IL,0
+txn_0236,55.93,2023-01-08,02:00:00,food_dining,Krajcik-Schamberger,64691,WA,0
+txn_0237,81.18,2023-01-07,10:00:00,health_beauty,Stark-Batz,54139,TX,0
+txn_0238,17.14,2023-01-10,16:00:00,utilities,Krajcik-Schamberger,84172,TX,0
+txn_0239,40.71,2023-01-10,12:00:00,utilities,Schmeler-Goldner,86666,IL,0
+txn_0240,127.7,2023-01-28,21:00:00,entertainment,Metc-Boehm,62249,CA,0
+txn_0241,56.88,2023-01-26,16:00:00,utilities,Durgan-Auer,44084,NY,0
+txn_0242,31.21,2023-01-25,09:00:00,travel,Schmeler-Goldner,75681,FL,0
+txn_0243,1370.18,2023-01-12,02:00:00,grocery_net,Krajcik-Schamberger,27633,CA,1
+txn_0244,26.25,2023-01-05,15:00:00,health_beauty,Kerluke Inc,26014,FL,0
+txn_0245,18.29,2023-01-03,01:00:00,grocery_net,Hessel LLC,14358,IL,0
+txn_0246,193.98,2023-01-09,06:00:00,health_beauty,Boyer PLC,65754,NY,0
+txn_0247,15.78,2023-01-08,03:00:00,health_beauty,Hessel LLC,83379,FL,0
+txn_0248,170.7,2023-01-04,06:00:00,grocery_net,Metc-Boehm,82240,NY,1
+txn_0249,187.5,2023-01-03,17:00:00,utilities,Metc-Boehm,55113,FL,0
+txn_0250,17.84,2023-01-17,05:00:00,misc_pos,Schmeler-Goldner,19686,WA,0
+txn_0251,40.62,2023-01-25,14:00:00,travel,Hessel LLC,38982,TX,0
+txn_0252,174.42,2023-01-12,15:00:00,travel,Stark-Batz,39328,NY,0
+txn_0253,5.21,2023-01-05,21:00:00,utilities,Bauch-Raynor,72711,NY,0
+txn_0254,55.08,2023-01-18,21:00:00,health_beauty,Pacocha-Bauch,14895,CA,0
+txn_0255,43.03,2023-01-01,03:00:00,health_beauty,Hessel LLC,15782,TX,0
+txn_0256,84.95,2023-01-01,08:00:00,shopping_pos,DuBuque LLC,65114,FL,0
+txn_0257,314.31,2023-01-15,10:00:00,health_beauty,Bauch-Raynor,14437,NY,0
+txn_0258,47.87,2023-01-17,14:00:00,food_dining,Boyer PLC,22329,WA,0
+txn_0259,157.85,2023-01-07,15:00:00,shopping_pos,Metc-Boehm,50461,CA,1
+txn_0260,65.97,2023-01-03,01:00:00,misc_pos,Bauch-Raynor,82909,NY,0
+txn_0261,167.88,2023-01-04,00:00:00,health_beauty,Hessel LLC,83822,WA,0
+txn_0262,138.03,2023-01-03,19:00:00,entertainment,Cronin-Blick,45298,CA,0
+txn_0263,41.64,2023-01-04,14:00:00,grocery_net,Pacocha-Bauch,50108,NY,0
+txn_0264,210.93,2023-01-14,12:00:00,utilities,Weissnat Group,38179,TX,0
+txn_0265,86.54,2023-01-19,04:00:00,shopping_pos,Krajcik-Schamberger,52913,TX,0
+txn_0266,69.31,2023-01-15,23:00:00,entertainment,DuBuque LLC,35032,FL,0
+txn_0267,68.73,2023-01-04,00:00:00,food_dining,Weissnat Group,56851,CA,0
+txn_0268,52.14,2023-01-28,03:00:00,food_dining,Hessel LLC,67009,IL,0
+txn_0269,22.58,2023-01-07,13:00:00,health_beauty,Schmeler-Goldner,19956,IL,0
+txn_0270,118.54,2023-01-30,01:00:00,travel,Cronin-Blick,99818,IL,1
+txn_0271,152.38,2023-01-13,00:00:00,entertainment,Funk Group,32740,TX,0
+txn_0272,41.77,2023-01-04,12:00:00,entertainment,DuBuque LLC,51424,FL,0
+txn_0273,146.92,2023-01-26,20:00:00,travel,Weissnat Group,20749,NY,0
+txn_0274,324.22,2023-01-09,02:00:00,utilities,DuBuque LLC,38380,NY,0
+txn_0275,119.51,2023-01-09,23:00:00,grocery_net,Weissnat Group,74641,NY,1
+txn_0276,132.07,2023-01-10,00:00:00,entertainment,Weissnat Group,30281,NY,0
+txn_0277,82.15,2023-01-15,16:00:00,utilities,Metc-Boehm,83616,NY,0
+txn_0278,199.93,2023-01-01,11:00:00,utilities,Kutch and Sons,32614,IL,1
+txn_0279,442.78,2023-01-05,16:00:00,utilities,Bauch-Raynor,26531,IL,0
+txn_0280,126.26,2023-01-15,19:00:00,shopping_pos,Pacocha-Bauch,74027,FL,1
+txn_0281,185.69,2023-01-28,15:00:00,travel,Metc-Boehm,33888,CA,0
+txn_0282,304.59,2023-01-17,02:00:00,misc_pos,Krajcik-Schamberger,60979,WA,0
+txn_0283,162.15,2023-01-02,07:00:00,food_dining,Pacocha-Bauch,69765,IL,0
+txn_0284,79.97,2023-01-11,01:00:00,utilities,Weissnat Group,26905,CA,0
+txn_0285,81.88,2023-01-22,17:00:00,health_beauty,Kris-Ritchie,87811,WA,0
+txn_0286,24.97,2023-01-24,16:00:00,health_beauty,Bauch-Raynor,71332,FL,0
+txn_0287,141.38,2023-01-13,20:00:00,misc_pos,Krajcik-Schamberger,25997,WA,0
+txn_0288,103.52,2023-01-11,11:00:00,travel,Funk Group,67941,WA,0
+txn_0289,77.39,2023-01-19,14:00:00,misc_pos,Kris-Ritchie,56486,NY,0
+txn_0290,77.91,2023-01-03,23:00:00,grocery_net,Hessel LLC,18894,WA,0
+txn_0291,315.24,2023-01-15,04:00:00,grocery_net,Krajcik-Schamberger,98199,TX,1
+txn_0292,110.44,2023-01-05,11:00:00,grocery_net,Durgan-Auer,59666,CA,1
+txn_0293,39.41,2023-01-21,09:00:00,shopping_pos,DuBuque LLC,46735,WA,0
+txn_0294,79.77,2023-01-16,08:00:00,misc_pos,Kris-Ritchie,47900,CA,0
+txn_0295,20.41,2023-01-19,23:00:00,health_beauty,Funk Group,92617,NY,0
+txn_0296,30.38,2023-01-03,21:00:00,utilities,Boyer PLC,33705,IL,0
+txn_0297,97.89,2023-01-04,06:00:00,travel,Kerluke Inc,46060,WA,0
+txn_0298,27.99,2023-01-04,19:00:00,travel,Boyer PLC,46727,WA,0
+txn_0299,235.94,2023-01-19,13:00:00,grocery_net,Bauch-Raynor,88229,IL,1
+txn_0300,708.01,2023-01-21,05:00:00,health_beauty,Schmeler-Goldner,53934,NY,0
+txn_0301,29.23,2023-01-20,17:00:00,grocery_net,Funk Group,60288,FL,0
+txn_0302,71.45,2023-01-13,21:00:00,food_dining,Stark-Batz,87984,CA,0
+txn_0303,39.34,2023-01-14,14:00:00,health_beauty,Krajcik-Schamberger,67418,CA,0
+txn_0304,82.32,2023-01-18,09:00:00,entertainment,Pacocha-Bauch,56850,IL,0
+txn_0305,246.55,2023-01-21,18:00:00,entertainment,Kris-Ritchie,71330,TX,0
+txn_0306,791.51,2023-01-29,04:00:00,shopping_pos,Boyer PLC,17999,IL,1
+txn_0307,41.65,2023-01-07,06:00:00,food_dining,Boyer PLC,15105,FL,0
+txn_0308,155.99,2023-01-24,19:00:00,food_dining,Schmeler-Goldner,72424,NY,1
+txn_0309,323.15,2023-01-30,09:00:00,food_dining,Durgan-Auer,19557,NY,0
+txn_0310,154.64,2023-01-25,09:00:00,health_beauty,Weissnat Group,42972,WA,0
+txn_0311,46.14,2023-01-18,19:00:00,shopping_pos,Durgan-Auer,28681,FL,0
+txn_0312,13.14,2023-01-18,14:00:00,health_beauty,Funk Group,17927,FL,0
+txn_0313,154.41,2023-01-26,09:00:00,entertainment,Funk Group,12539,WA,0
+txn_0314,30.24,2023-01-12,20:00:00,shopping_pos,Bauch-Raynor,91912,IL,0
+txn_0315,261.66,2023-01-10,03:00:00,entertainment,DuBuque LLC,25352,WA,0
+txn_0316,33.46,2023-01-07,08:00:00,shopping_pos,Boyer PLC,54629,CA,0
+txn_0317,87.38,2023-01-10,00:00:00,misc_pos,Metc-Boehm,23140,IL,0
+txn_0318,229.65,2023-01-19,15:00:00,utilities,DuBuque LLC,22924,WA,0
+txn_0319,156.36,2023-01-03,09:00:00,food_dining,Metc-Boehm,77263,FL,0
+txn_0320,48.2,2023-01-20,13:00:00,food_dining,Krajcik-Schamberger,40933,IL,0
+txn_0321,66.74,2023-01-27,13:00:00,food_dining,Pacocha-Bauch,66700,CA,0
+txn_0322,109.36,2023-01-08,02:00:00,health_beauty,Durgan-Auer,33648,TX,0
+txn_0323,233.62,2023-01-11,17:00:00,travel,Pacocha-Bauch,42658,IL,0
+txn_0324,166.21,2023-01-04,08:00:00,food_dining,Durgan-Auer,67828,IL,0
+txn_0325,20.7,2023-01-08,13:00:00,utilities,Krajcik-Schamberger,89057,TX,0
+txn_0326,26.52,2023-01-11,17:00:00,shopping_pos,Hessel LLC,14135,WA,0
+txn_0327,183.6,2023-01-05,07:00:00,travel,Kerluke Inc,27071,FL,0
+txn_0328,39.26,2023-01-21,20:00:00,travel,Hessel LLC,66481,NY,0
+txn_0329,180.96,2023-01-25,04:00:00,travel,Kris-Ritchie,65426,CA,1
+txn_0330,89.83,2023-01-29,02:00:00,entertainment,Cronin-Blick,87275,IL,0
+txn_0331,124.85,2023-01-25,11:00:00,shopping_pos,Metc-Boehm,40090,TX,1
+txn_0332,73.11,2023-01-12,02:00:00,health_beauty,DuBuque LLC,22763,WA,0
+txn_0333,547.83,2023-01-26,23:00:00,food_dining,Kutch and Sons,35556,FL,0
+txn_0334,47.46,2023-01-22,15:00:00,travel,Stark-Batz,16416,IL,0
+txn_0335,8.98,2023-01-20,00:00:00,shopping_pos,Kris-Ritchie,37516,TX,0
+txn_0336,93.26,2023-01-20,08:00:00,health_beauty,Funk Group,38795,CA,0
+txn_0337,97.0,2023-01-26,03:00:00,shopping_pos,Krajcik-Schamberger,97960,WA,0
+txn_0338,217.32,2023-01-03,08:00:00,travel,Kerluke Inc,60939,IL,0
+txn_0339,88.62,2023-01-27,05:00:00,grocery_net,Bauch-Raynor,32746,FL,0
+txn_0340,14.62,2023-01-19,02:00:00,health_beauty,Durgan-Auer,81678,WA,0
+txn_0341,5.83,2023-01-26,13:00:00,utilities,Durgan-Auer,44518,WA,0
+txn_0342,247.92,2023-01-28,08:00:00,shopping_pos,Boyer PLC,15075,IL,1
+txn_0343,67.68,2023-01-25,22:00:00,grocery_net,Krajcik-Schamberger,88610,NY,0
+txn_0344,109.36,2023-01-24,00:00:00,grocery_net,Cronin-Blick,74307,CA,1
+txn_0345,932.79,2023-01-03,20:00:00,shopping_pos,Cronin-Blick,21240,FL,1
+txn_0346,133.22,2023-01-09,01:00:00,utilities,Schmeler-Goldner,99709,WA,0
+txn_0347,225.96,2023-01-16,16:00:00,utilities,Funk Group,19885,NY,0
+txn_0348,71.25,2023-01-12,02:00:00,entertainment,Pacocha-Bauch,26288,IL,0
+txn_0349,85.68,2023-01-02,16:00:00,shopping_pos,Pacocha-Bauch,59879,CA,1
+txn_0350,54.17,2023-01-09,14:00:00,travel,Cronin-Blick,36649,NY,0
+txn_0351,188.87,2023-01-06,18:00:00,entertainment,Durgan-Auer,71944,IL,0
+txn_0352,41.16,2023-01-22,02:00:00,entertainment,Schmeler-Goldner,56571,TX,0
+txn_0353,111.03,2023-01-23,07:00:00,grocery_net,Stark-Batz,95925,WA,1
+txn_0354,165.04,2023-01-28,18:00:00,utilities,Kris-Ritchie,39033,CA,0
+txn_0355,56.55,2023-01-03,13:00:00,utilities,Bauch-Raynor,93375,IL,0
+txn_0356,162.2,2023-01-11,07:00:00,health_beauty,Kerluke Inc,26724,IL,0
+txn_0357,1577.69,2023-01-22,10:00:00,misc_pos,Cronin-Blick,98296,CA,0
+txn_0358,151.1,2023-01-09,22:00:00,travel,Kris-Ritchie,32054,IL,0
+txn_0359,51.44,2023-01-13,13:00:00,entertainment,Kris-Ritchie,71440,NY,0
+txn_0360,209.32,2023-01-01,15:00:00,food_dining,Hessel LLC,74089,NY,0
+txn_0361,143.47,2023-01-30,22:00:00,health_beauty,Kris-Ritchie,45820,CA,0
+txn_0362,45.47,2023-01-05,17:00:00,food_dining,Krajcik-Schamberger,44542,NY,0
+txn_0363,209.1,2023-01-26,11:00:00,grocery_net,Kerluke Inc,34306,CA,1
+txn_0364,94.7,2023-01-13,10:00:00,shopping_pos,DuBuque LLC,84637,TX,0
+txn_0365,115.24,2023-01-20,02:00:00,food_dining,Funk Group,70058,IL,0
+txn_0366,157.33,2023-01-09,16:00:00,misc_pos,Durgan-Auer,38669,NY,0
+txn_0367,43.91,2023-01-21,04:00:00,travel,Hessel LLC,47437,CA,0
+txn_0368,202.72,2023-01-18,10:00:00,health_beauty,Kutch and Sons,46268,CA,0
+txn_0369,128.92,2023-01-02,11:00:00,health_beauty,Boyer PLC,27858,FL,0
+txn_0370,74.96,2023-01-04,21:00:00,utilities,Weissnat Group,95920,TX,0
+txn_0371,147.39,2023-01-01,23:00:00,entertainment,Pacocha-Bauch,94526,NY,0
+txn_0372,14.16,2023-01-27,14:00:00,shopping_pos,Bauch-Raynor,57498,CA,0
+txn_0373,106.84,2023-01-20,15:00:00,misc_pos,Durgan-Auer,27438,NY,0
+txn_0374,85.15,2023-01-22,13:00:00,shopping_pos,Boyer PLC,47226,FL,0
+txn_0375,225.47,2023-01-21,14:00:00,health_beauty,DuBuque LLC,63161,IL,0
+txn_0376,21.6,2023-01-28,17:00:00,food_dining,Metc-Boehm,16344,CA,0
+txn_0377,20.32,2023-01-13,16:00:00,food_dining,Cronin-Blick,46575,WA,0
+txn_0378,178.27,2023-01-21,21:00:00,entertainment,DuBuque LLC,15498,FL,0
+txn_0379,28.01,2023-01-21,16:00:00,shopping_pos,Hessel LLC,53949,NY,0
+txn_0380,94.85,2023-01-13,02:00:00,utilities,Krajcik-Schamberger,68478,TX,0
+txn_0381,523.33,2023-01-03,16:00:00,entertainment,Bauch-Raynor,30219,TX,0
+txn_0382,284.78,2023-01-17,04:00:00,utilities,Kutch and Sons,45428,NY,0
+txn_0383,179.34,2023-01-11,01:00:00,entertainment,Kris-Ritchie,36421,IL,0
+txn_0384,75.3,2023-01-14,08:00:00,food_dining,Durgan-Auer,39689,NY,0
+txn_0385,88.31,2023-01-12,11:00:00,utilities,Boyer PLC,66115,WA,0
+txn_0386,20.45,2023-01-27,14:00:00,travel,Durgan-Auer,72154,CA,0
+txn_0387,63.9,2023-01-14,20:00:00,shopping_pos,Kerluke Inc,79338,TX,0
+txn_0388,224.68,2023-01-08,08:00:00,utilities,Bauch-Raynor,92035,IL,0
+txn_0389,247.66,2023-01-06,18:00:00,utilities,Weissnat Group,31826,FL,1
+txn_0390,359.77,2023-01-11,21:00:00,entertainment,Metc-Boehm,46674,WA,0
+txn_0391,145.36,2023-01-02,11:00:00,utilities,Kutch and Sons,21944,FL,0
+txn_0392,53.32,2023-01-01,04:00:00,food_dining,Kerluke Inc,96156,IL,0
+txn_0393,349.54,2023-01-04,00:00:00,travel,Stark-Batz,85969,CA,0
+txn_0394,162.12,2023-01-03,07:00:00,shopping_pos,Kris-Ritchie,51869,NY,1
+txn_0395,29.69,2023-01-29,12:00:00,misc_pos,Weissnat Group,94050,FL,0
+txn_0396,72.54,2023-01-06,15:00:00,misc_pos,DuBuque LLC,56092,NY,0
+txn_0397,106.97,2023-01-30,23:00:00,health_beauty,Funk Group,68394,WA,0
+txn_0398,18.2,2023-01-19,20:00:00,entertainment,Kutch and Sons,71202,CA,0
+txn_0399,129.99,2023-01-23,22:00:00,grocery_net,Krajcik-Schamberger,98607,WA,1
+txn_0400,198.65,2023-01-14,17:00:00,utilities,Pacocha-Bauch,41921,NY,0
+txn_0401,71.87,2023-01-13,03:00:00,health_beauty,Krajcik-Schamberger,66378,TX,0
+txn_0402,258.84,2023-01-15,16:00:00,food_dining,Stark-Batz,64238,CA,0
+txn_0403,147.53,2023-01-17,05:00:00,health_beauty,Weissnat Group,37990,TX,0
+txn_0404,118.3,2023-01-11,00:00:00,shopping_pos,Schmeler-Goldner,42402,CA,1
+txn_0405,124.73,2023-01-04,11:00:00,misc_pos,Kris-Ritchie,26209,FL,0
+txn_0406,69.56,2023-01-26,22:00:00,grocery_net,Kutch and Sons,72368,NY,0
+txn_0407,142.28,2023-01-21,22:00:00,travel,Boyer PLC,22180,FL,0
+txn_0408,162.17,2023-01-20,20:00:00,grocery_net,Cronin-Blick,15842,NY,1
+txn_0409,96.73,2023-01-16,21:00:00,entertainment,Kerluke Inc,90742,NY,0
+txn_0410,34.15,2023-01-28,08:00:00,food_dining,Bauch-Raynor,48342,CA,0
+txn_0411,139.55,2023-01-02,03:00:00,entertainment,Kutch and Sons,91423,CA,0
+txn_0412,170.01,2023-01-13,12:00:00,travel,Hessel LLC,67505,CA,0
+txn_0413,78.54,2023-01-12,05:00:00,shopping_pos,DuBuque LLC,68283,IL,0
+txn_0414,1749.71,2023-01-03,10:00:00,food_dining,Kutch and Sons,83016,CA,0
+txn_0415,34.29,2023-01-10,20:00:00,travel,Schmeler-Goldner,71997,IL,0
+txn_0416,69.43,2023-01-12,16:00:00,health_beauty,Krajcik-Schamberger,46021,NY,1
+txn_0417,54.91,2023-01-26,03:00:00,grocery_net,Kris-Ritchie,95179,TX,0
+txn_0418,171.52,2023-01-27,11:00:00,food_dining,Durgan-Auer,42245,IL,0
+txn_0419,44.81,2023-01-06,04:00:00,misc_pos,Stark-Batz,30447,IL,0
+txn_0420,63.65,2023-01-16,11:00:00,health_beauty,Stark-Batz,43487,FL,0
+txn_0421,140.01,2023-01-09,18:00:00,travel,Pacocha-Bauch,14426,CA,0
+txn_0422,36.4,2023-01-29,08:00:00,shopping_pos,Durgan-Auer,97265,NY,0
+txn_0423,76.23,2023-01-26,11:00:00,travel,Schmeler-Goldner,31607,CA,0
+txn_0424,309.75,2023-01-09,21:00:00,food_dining,Weissnat Group,48458,TX,0
+txn_0425,114.52,2023-01-27,09:00:00,grocery_net,Boyer PLC,99388,FL,1
+txn_0426,205.55,2023-01-28,14:00:00,food_dining,Durgan-Auer,84218,CA,0
+txn_0427,61.68,2023-01-09,14:00:00,health_beauty,Durgan-Auer,46081,TX,0
+txn_0428,30.95,2023-01-29,14:00:00,misc_pos,Kris-Ritchie,31625,IL,0
+txn_0429,127.0,2023-01-30,21:00:00,health_beauty,Metc-Boehm,49121,WA,0
+txn_0430,51.99,2023-01-13,11:00:00,utilities,Hessel LLC,18811,CA,0
+txn_0431,78.09,2023-01-06,11:00:00,shopping_pos,DuBuque LLC,38328,NY,0
+txn_0432,155.7,2023-01-19,17:00:00,entertainment,Kris-Ritchie,48870,WA,0
+txn_0433,106.64,2023-01-29,18:00:00,food_dining,Pacocha-Bauch,13642,IL,0
+txn_0434,85.07,2023-01-10,12:00:00,utilities,Funk Group,18199,WA,0
+txn_0435,262.98,2023-01-11,00:00:00,health_beauty,Krajcik-Schamberger,31542,CA,0
+txn_0436,220.53,2023-01-04,09:00:00,entertainment,Stark-Batz,28020,NY,0
+txn_0437,108.46,2023-01-10,23:00:00,entertainment,Kris-Ritchie,73227,TX,0
+txn_0438,80.84,2023-01-12,02:00:00,grocery_net,Kris-Ritchie,93596,IL,0
+txn_0439,142.72,2023-01-19,01:00:00,travel,Durgan-Auer,77712,CA,0
+txn_0440,23.2,2023-01-07,16:00:00,shopping_pos,Bauch-Raynor,30058,TX,0
+txn_0441,29.87,2023-01-29,19:00:00,entertainment,DuBuque LLC,85731,IL,0
+txn_0442,27.05,2023-01-23,19:00:00,food_dining,Hessel LLC,39961,FL,0
+txn_0443,139.96,2023-01-22,16:00:00,grocery_net,Boyer PLC,53361,IL,1
+txn_0444,103.07,2023-01-19,23:00:00,shopping_pos,Weissnat Group,59812,FL,1
+txn_0445,20.11,2023-01-28,12:00:00,shopping_pos,Bauch-Raynor,90070,TX,0
+txn_0446,211.63,2023-01-13,19:00:00,misc_pos,Krajcik-Schamberger,30700,CA,0
+txn_0447,98.95,2023-01-28,13:00:00,travel,Weissnat Group,30954,NY,0
+txn_0448,76.5,2023-01-02,03:00:00,utilities,Kris-Ritchie,57068,TX,0
+txn_0449,169.48,2023-01-24,20:00:00,travel,Kerluke Inc,98691,IL,1
+txn_0450,210.12,2023-01-06,21:00:00,entertainment,Stark-Batz,44148,CA,0
+txn_0451,55.67,2023-01-03,19:00:00,entertainment,Metc-Boehm,67727,FL,0
+txn_0452,50.58,2023-01-05,08:00:00,travel,Pacocha-Bauch,32412,TX,0
+txn_0453,56.5,2023-01-27,15:00:00,entertainment,Cronin-Blick,75458,WA,0
+txn_0454,22.31,2023-01-17,07:00:00,entertainment,Metc-Boehm,67615,FL,0
+txn_0455,56.82,2023-01-30,01:00:00,shopping_pos,Weissnat Group,18712,CA,0
+txn_0456,30.31,2023-01-05,20:00:00,shopping_pos,Stark-Batz,41845,CA,0
+txn_0457,145.71,2023-01-24,08:00:00,grocery_net,Pacocha-Bauch,30583,FL,1
+txn_0458,66.84,2023-01-02,16:00:00,health_beauty,Hessel LLC,23050,CA,0
+txn_0459,185.0,2023-01-20,05:00:00,health_beauty,Hessel LLC,52291,IL,0
+txn_0460,172.0,2023-01-17,00:00:00,utilities,Funk Group,85225,NY,0
+txn_0461,159.69,2023-01-11,18:00:00,grocery_net,DuBuque LLC,44675,FL,1
+txn_0462,139.73,2023-01-06,18:00:00,utilities,Pacocha-Bauch,66184,CA,0
+txn_0463,116.27,2023-01-06,15:00:00,entertainment,Kerluke Inc,77391,WA,0
+txn_0464,34.14,2023-01-12,03:00:00,travel,Pacocha-Bauch,37798,TX,0
+txn_0465,112.18,2023-01-08,04:00:00,grocery_net,Bauch-Raynor,53526,WA,1
+txn_0466,177.65,2023-01-20,17:00:00,shopping_pos,Bauch-Raynor,47327,NY,1
+txn_0467,280.99,2023-01-11,20:00:00,health_beauty,Schmeler-Goldner,26523,CA,0
+txn_0468,407.1,2023-01-27,23:00:00,health_beauty,Kutch and Sons,95024,WA,0
+txn_0469,71.93,2023-01-30,01:00:00,entertainment,Metc-Boehm,94526,NY,0
+txn_0470,137.26,2023-01-29,21:00:00,shopping_pos,Funk Group,32931,IL,1
+txn_0471,349.03,2023-01-09,09:00:00,misc_pos,Durgan-Auer,35991,TX,0
+txn_0472,110.98,2023-01-09,19:00:00,misc_pos,DuBuque LLC,24256,FL,0
+txn_0473,85.86,2023-01-25,01:00:00,misc_pos,Bauch-Raynor,89650,TX,0
+txn_0474,182.59,2023-01-27,06:00:00,travel,Kris-Ritchie,77054,WA,0
+txn_0475,87.89,2023-01-20,18:00:00,food_dining,Pacocha-Bauch,36990,TX,0
+txn_0476,147.45,2023-01-27,08:00:00,health_beauty,Weissnat Group,46963,FL,0
+txn_0477,47.07,2023-01-19,00:00:00,food_dining,Hessel LLC,52137,CA,0
+txn_0478,70.22,2023-01-28,12:00:00,health_beauty,DuBuque LLC,72912,CA,0
+txn_0479,102.51,2023-01-01,18:00:00,food_dining,Stark-Batz,87219,CA,0
+txn_0480,261.02,2023-01-10,16:00:00,health_beauty,Weissnat Group,92289,FL,0
+txn_0481,33.32,2023-01-15,14:00:00,entertainment,Kris-Ritchie,79212,FL,0
+txn_0482,84.36,2023-01-18,09:00:00,grocery_net,Stark-Batz,20451,IL,0
+txn_0483,136.08,2023-01-15,22:00:00,entertainment,Kerluke Inc,72943,NY,1
+txn_0484,42.29,2023-01-11,07:00:00,misc_pos,Weissnat Group,83788,TX,0
+txn_0485,46.23,2023-01-30,17:00:00,utilities,Kris-Ritchie,68671,TX,0
+txn_0486,129.79,2023-01-14,23:00:00,entertainment,Krajcik-Schamberger,86162,TX,0
+txn_0487,4.52,2023-01-19,07:00:00,health_beauty,Kris-Ritchie,92409,CA,0
+txn_0488,173.55,2023-01-05,21:00:00,grocery_net,Schmeler-Goldner,96664,TX,1
+txn_0489,1577.94,2023-01-02,20:00:00,shopping_pos,Durgan-Auer,30025,FL,1
+txn_0490,171.63,2023-01-05,10:00:00,food_dining,DuBuque LLC,57195,TX,0
+txn_0491,114.77,2023-01-04,12:00:00,misc_pos,Kris-Ritchie,38927,IL,0
+txn_0492,395.02,2023-01-06,00:00:00,misc_pos,Metc-Boehm,41781,IL,0
+txn_0493,33.79,2023-01-18,20:00:00,food_dining,Boyer PLC,41174,FL,0
+txn_0494,46.07,2023-01-10,23:00:00,food_dining,Pacocha-Bauch,13606,CA,0
+txn_0495,206.43,2023-01-24,19:00:00,misc_pos,Krajcik-Schamberger,81832,IL,0
+txn_0496,29.1,2023-01-17,00:00:00,utilities,Funk Group,10136,WA,0
+txn_0497,22.67,2023-01-05,21:00:00,grocery_net,Metc-Boehm,42854,CA,0
+txn_0498,13.96,2023-01-29,08:00:00,health_beauty,Krajcik-Schamberger,11700,IL,0
+txn_0499,32.09,2023-01-17,12:00:00,travel,Weissnat Group,46455,IL,0
+txn_0500,90.78,2023-01-30,16:00:00,health_beauty,Kerluke Inc,40954,TX,0
+txn_0501,849.49,2023-01-28,14:00:00,misc_pos,Boyer PLC,53939,TX,0
+txn_0502,21.23,2023-01-22,18:00:00,travel,Metc-Boehm,54942,WA,0
+txn_0503,128.36,2023-01-01,14:00:00,grocery_net,Hessel LLC,94925,CA,1
+txn_0504,963.88,2023-01-29,00:00:00,misc_pos,Krajcik-Schamberger,40049,FL,0
+txn_0505,111.1,2023-01-13,14:00:00,utilities,Hessel LLC,20799,CA,0
+txn_0506,76.93,2023-01-05,12:00:00,travel,Kerluke Inc,71744,FL,0
+txn_0507,306.25,2023-01-01,20:00:00,travel,Kerluke Inc,46413,CA,0
+txn_0508,37.44,2023-01-25,15:00:00,utilities,Kris-Ritchie,52056,CA,0
+txn_0509,249.54,2023-01-19,11:00:00,shopping_pos,Stark-Batz,82309,CA,1
+txn_0510,421.66,2023-01-13,08:00:00,misc_pos,Bauch-Raynor,14994,FL,0
+txn_0511,490.93,2023-01-16,18:00:00,misc_pos,Durgan-Auer,51153,WA,0
+txn_0512,125.97,2023-01-13,16:00:00,grocery_net,Pacocha-Bauch,46945,TX,1
+txn_0513,70.19,2023-01-15,21:00:00,entertainment,Hessel LLC,59683,IL,0
+txn_0514,31.32,2023-01-30,22:00:00,utilities,Weissnat Group,32010,NY,0
+txn_0515,46.31,2023-01-02,10:00:00,utilities,Kris-Ritchie,19277,CA,0
+txn_0516,69.19,2023-01-25,15:00:00,travel,Durgan-Auer,31639,CA,0
+txn_0517,100.46,2023-01-26,06:00:00,health_beauty,Hessel LLC,87299,CA,1
+txn_0518,134.37,2023-01-29,05:00:00,grocery_net,Schmeler-Goldner,87241,CA,1
+txn_0519,59.26,2023-01-21,02:00:00,travel,Weissnat Group,91471,TX,0
+txn_0520,270.94,2023-01-11,12:00:00,entertainment,Boyer PLC,42821,FL,0
+txn_0521,177.47,2023-01-10,11:00:00,health_beauty,DuBuque LLC,53307,FL,0
+txn_0522,185.35,2023-01-18,22:00:00,shopping_pos,Schmeler-Goldner,17485,CA,1
+txn_0523,56.06,2023-01-03,14:00:00,grocery_net,Metc-Boehm,61877,FL,0
+txn_0524,28.15,2023-01-27,12:00:00,health_beauty,Boyer PLC,37526,WA,0
+txn_0525,60.64,2023-01-04,14:00:00,travel,Kutch and Sons,34031,WA,0
+txn_0526,140.74,2023-01-22,04:00:00,grocery_net,Durgan-Auer,76629,IL,1
+txn_0527,147.91,2023-01-28,04:00:00,travel,Bauch-Raynor,45959,WA,0
+txn_0528,292.7,2023-01-29,07:00:00,utilities,Kris-Ritchie,88278,IL,0
+txn_0529,65.32,2023-01-29,21:00:00,grocery_net,Kris-Ritchie,48437,FL,0
+txn_0530,183.03,2023-01-27,12:00:00,shopping_pos,Boyer PLC,56754,IL,1
+txn_0531,65.94,2023-01-20,02:00:00,grocery_net,Hessel LLC,86234,FL,0
+txn_0532,71.61,2023-01-06,21:00:00,shopping_pos,Kutch and Sons,53469,TX,0
+txn_0533,80.98,2023-01-26,10:00:00,travel,Funk Group,54386,FL,0
+txn_0534,190.43,2023-01-11,18:00:00,food_dining,Stark-Batz,46289,TX,0
+txn_0535,170.63,2023-01-24,22:00:00,shopping_pos,Weissnat Group,43418,WA,1
+txn_0536,209.11,2023-01-12,20:00:00,shopping_pos,Kutch and Sons,40257,NY,1
+txn_0537,32.88,2023-01-20,09:00:00,grocery_net,Metc-Boehm,99765,CA,0
+txn_0538,159.75,2023-01-05,11:00:00,entertainment,Kris-Ritchie,46182,CA,0
+txn_0539,62.46,2023-01-19,21:00:00,misc_pos,Metc-Boehm,74575,NY,0
+txn_0540,39.61,2023-01-20,17:00:00,health_beauty,Cronin-Blick,14529,CA,0
+txn_0541,327.08,2023-01-20,21:00:00,utilities,Schmeler-Goldner,66541,WA,0
+txn_0542,3.48,2023-01-02,05:00:00,grocery_net,Kutch and Sons,63027,WA,0
+txn_0543,110.32,2023-01-11,07:00:00,food_dining,Durgan-Auer,86949,NY,1
+txn_0544,41.32,2023-01-14,15:00:00,travel,Pacocha-Bauch,88653,FL,0
+txn_0545,74.08,2023-01-27,15:00:00,utilities,Krajcik-Schamberger,98151,CA,0
+txn_0546,198.08,2023-01-30,20:00:00,travel,Durgan-Auer,41085,NY,0
+txn_0547,88.25,2023-01-10,16:00:00,grocery_net,Schmeler-Goldner,42093,IL,0
+txn_0548,47.3,2023-01-18,19:00:00,shopping_pos,DuBuque LLC,42101,TX,0
+txn_0549,124.25,2023-01-03,19:00:00,entertainment,Krajcik-Schamberger,67124,WA,0
+txn_0550,59.5,2023-01-28,23:00:00,health_beauty,Hessel LLC,92569,NY,0
+txn_0551,55.83,2023-01-26,04:00:00,food_dining,Weissnat Group,21349,NY,0
+txn_0552,358.23,2023-01-22,22:00:00,utilities,Krajcik-Schamberger,54673,FL,0
+txn_0553,61.12,2023-01-10,05:00:00,utilities,Kutch and Sons,76983,WA,0
+txn_0554,73.38,2023-01-10,22:00:00,grocery_net,Boyer PLC,51185,CA,0
+txn_0555,418.15,2023-01-19,17:00:00,utilities,Stark-Batz,64219,CA,0
+txn_0556,111.43,2023-01-08,08:00:00,utilities,Kerluke Inc,41379,TX,0
+txn_0557,10.56,2023-01-12,11:00:00,grocery_net,Weissnat Group,27618,NY,0
+txn_0558,112.94,2023-01-27,03:00:00,travel,Funk Group,45303,IL,0
+txn_0559,171.61,2023-01-25,12:00:00,shopping_pos,Metc-Boehm,90059,TX,1
+txn_0560,67.44,2023-01-27,12:00:00,grocery_net,Durgan-Auer,90357,WA,0
+txn_0561,404.5,2023-01-28,02:00:00,health_beauty,Kutch and Sons,60818,IL,0
+txn_0562,97.88,2023-01-14,05:00:00,utilities,Funk Group,21874,TX,0
+txn_0563,149.09,2023-01-30,04:00:00,shopping_pos,Kerluke Inc,29800,CA,1
+txn_0564,169.93,2023-01-04,21:00:00,travel,Pacocha-Bauch,63772,IL,0
+txn_0565,15.37,2023-01-17,12:00:00,food_dining,Pacocha-Bauch,52933,NY,0
+txn_0566,45.2,2023-01-23,12:00:00,shopping_pos,DuBuque LLC,87485,FL,0
+txn_0567,114.24,2023-01-05,06:00:00,entertainment,Kris-Ritchie,81128,IL,0
+txn_0568,55.06,2023-01-30,13:00:00,misc_pos,Weissnat Group,54369,IL,0
+txn_0569,26.84,2023-01-21,11:00:00,misc_pos,Pacocha-Bauch,57574,NY,0
+txn_0570,285.29,2023-01-22,08:00:00,food_dining,Stark-Batz,29456,NY,1
+txn_0571,17.91,2023-01-25,13:00:00,entertainment,Kerluke Inc,64200,FL,0
+txn_0572,65.35,2023-01-11,18:00:00,misc_pos,Durgan-Auer,70006,FL,0
+txn_0573,196.1,2023-01-23,07:00:00,entertainment,Kutch and Sons,85319,WA,0
+txn_0574,20.98,2023-01-22,18:00:00,utilities,Hessel LLC,35832,CA,0
+txn_0575,71.39,2023-01-07,18:00:00,utilities,Krajcik-Schamberger,20234,CA,0
+txn_0576,139.19,2023-01-06,01:00:00,health_beauty,Durgan-Auer,86918,IL,0
+txn_0577,38.1,2023-01-26,19:00:00,entertainment,Boyer PLC,78895,CA,0
+txn_0578,161.46,2023-01-14,02:00:00,shopping_pos,Cronin-Blick,99959,FL,1
+txn_0579,151.28,2023-01-16,23:00:00,utilities,Schmeler-Goldner,58003,WA,0
+txn_0580,99.06,2023-01-24,11:00:00,utilities,Weissnat Group,86524,CA,0
+txn_0581,24.05,2023-01-26,02:00:00,entertainment,Durgan-Auer,29738,CA,1
+txn_0582,348.56,2023-01-12,20:00:00,grocery_net,Schmeler-Goldner,25641,TX,1
+txn_0583,60.94,2023-01-23,15:00:00,travel,Pacocha-Bauch,16511,CA,0
+txn_0584,161.33,2023-01-25,20:00:00,misc_pos,Bauch-Raynor,39523,CA,0
+txn_0585,140.25,2023-01-26,14:00:00,health_beauty,Pacocha-Bauch,75785,WA,0
+txn_0586,24.37,2023-01-06,04:00:00,utilities,Kutch and Sons,45440,FL,0
+txn_0587,151.33,2023-01-08,21:00:00,shopping_pos,Schmeler-Goldner,85414,FL,1
+txn_0588,518.77,2023-01-25,09:00:00,misc_pos,Durgan-Auer,17347,CA,0
+txn_0589,147.71,2023-01-24,04:00:00,travel,Kutch and Sons,30922,IL,0
+txn_0590,45.15,2023-01-01,01:00:00,utilities,Kris-Ritchie,24011,FL,0
+txn_0591,57.29,2023-01-29,07:00:00,entertainment,Boyer PLC,72901,NY,0
+txn_0592,88.44,2023-01-24,20:00:00,misc_pos,Krajcik-Schamberger,75006,TX,0
+txn_0593,91.98,2023-01-01,14:00:00,entertainment,Durgan-Auer,95824,CA,0
+txn_0594,109.77,2023-01-15,20:00:00,misc_pos,Metc-Boehm,84960,WA,0
+txn_0595,24.8,2023-01-17,12:00:00,health_beauty,Kerluke Inc,88672,WA,0
+txn_0596,21.77,2023-01-29,07:00:00,travel,Cronin-Blick,75333,IL,0
+txn_0597,22.88,2023-01-05,05:00:00,food_dining,Bauch-Raynor,23269,TX,0
+txn_0598,60.69,2023-01-26,04:00:00,travel,Boyer PLC,21795,WA,0
+txn_0599,94.13,2023-01-07,12:00:00,health_beauty,Cronin-Blick,24719,NY,0
+txn_0600,156.54,2023-01-15,10:00:00,travel,Bauch-Raynor,27387,FL,0
+txn_0601,138.5,2023-01-24,07:00:00,food_dining,Weissnat Group,72780,IL,0
+txn_0602,8.69,2023-01-13,03:00:00,shopping_pos,Kerluke Inc,71381,TX,0
+txn_0603,60.13,2023-01-27,07:00:00,food_dining,Cronin-Blick,56799,NY,0
+txn_0604,45.47,2023-01-02,12:00:00,food_dining,Boyer PLC,23598,FL,0
+txn_0605,255.7,2023-01-07,07:00:00,misc_pos,Hessel LLC,46343,NY,0
+txn_0606,151.17,2023-01-03,15:00:00,entertainment,Boyer PLC,29229,TX,0
+txn_0607,28.45,2023-01-24,05:00:00,entertainment,Funk Group,11657,IL,0
+txn_0608,7.78,2023-01-18,09:00:00,health_beauty,Funk Group,60599,TX,0
+txn_0609,290.89,2023-01-10,02:00:00,utilities,Weissnat Group,13722,FL,0
+txn_0610,223.45,2023-01-03,05:00:00,utilities,Metc-Boehm,50469,CA,0
+txn_0611,46.16,2023-01-03,09:00:00,entertainment,Kris-Ritchie,23704,NY,0
+txn_0612,14.33,2023-01-23,08:00:00,grocery_net,Kris-Ritchie,88537,FL,0
+txn_0613,22.58,2023-01-30,22:00:00,utilities,Pacocha-Bauch,73768,NY,0
+txn_0614,13.75,2023-01-26,13:00:00,grocery_net,Boyer PLC,16782,CA,0
+txn_0615,1076.08,2023-01-02,15:00:00,food_dining,Bauch-Raynor,85874,FL,1
+txn_0616,61.47,2023-01-18,09:00:00,grocery_net,Schmeler-Goldner,70410,FL,0
+txn_0617,54.69,2023-01-06,15:00:00,entertainment,Bauch-Raynor,89211,FL,0
+txn_0618,163.5,2023-01-22,06:00:00,food_dining,Hessel LLC,49553,TX,0
+txn_0619,54.86,2023-01-15,06:00:00,utilities,Krajcik-Schamberger,22205,NY,0
+txn_0620,114.47,2023-01-08,20:00:00,food_dining,Durgan-Auer,48724,TX,0
+txn_0621,237.47,2023-01-12,14:00:00,health_beauty,Schmeler-Goldner,25972,WA,0
+txn_0622,188.71,2023-01-15,02:00:00,entertainment,Hessel LLC,55283,WA,0
+txn_0623,25.83,2023-01-27,04:00:00,utilities,Kutch and Sons,33862,NY,0
+txn_0624,64.33,2023-01-18,15:00:00,health_beauty,DuBuque LLC,49876,WA,1
+txn_0625,195.63,2023-01-11,12:00:00,misc_pos,Funk Group,93829,IL,0
+txn_0626,25.47,2023-01-06,05:00:00,shopping_pos,Bauch-Raynor,98302,CA,0
+txn_0627,49.73,2023-01-18,17:00:00,food_dining,Weissnat Group,38164,NY,0
+txn_0628,40.21,2023-01-10,12:00:00,misc_pos,Schmeler-Goldner,49560,TX,0
+txn_0629,87.95,2023-01-25,02:00:00,health_beauty,Boyer PLC,20068,IL,0
+txn_0630,27.53,2023-01-17,23:00:00,food_dining,DuBuque LLC,48751,WA,1
+txn_0631,8.48,2023-01-23,10:00:00,grocery_net,Durgan-Auer,36627,TX,0
+txn_0632,71.31,2023-01-28,14:00:00,grocery_net,Weissnat Group,31684,TX,0
+txn_0633,28.15,2023-01-12,03:00:00,utilities,Boyer PLC,20770,TX,0
+txn_0634,135.71,2023-01-10,21:00:00,grocery_net,Durgan-Auer,61502,IL,1
+txn_0635,79.81,2023-01-18,19:00:00,health_beauty,Hessel LLC,69754,FL,0
+txn_0636,111.48,2023-01-09,07:00:00,food_dining,DuBuque LLC,31067,TX,1
+txn_0637,7.8,2023-01-07,19:00:00,utilities,DuBuque LLC,96593,CA,0
+txn_0638,79.58,2023-01-29,01:00:00,health_beauty,Stark-Batz,51486,NY,0
+txn_0639,888.3,2023-01-24,06:00:00,entertainment,Pacocha-Bauch,29053,WA,0
+txn_0640,101.53,2023-01-04,05:00:00,utilities,Metc-Boehm,89267,WA,0
+txn_0641,63.95,2023-01-13,00:00:00,utilities,Pacocha-Bauch,38835,NY,0
+txn_0642,61.49,2023-01-19,07:00:00,entertainment,Pacocha-Bauch,81117,WA,0
+txn_0643,45.3,2023-01-29,13:00:00,travel,Hessel LLC,89558,WA,0
+txn_0644,99.18,2023-01-27,07:00:00,travel,Pacocha-Bauch,77789,FL,1
+txn_0645,283.3,2023-01-28,16:00:00,shopping_pos,Krajcik-Schamberger,91845,WA,1
+txn_0646,183.99,2023-01-29,08:00:00,entertainment,Bauch-Raynor,26709,CA,0
+txn_0647,92.31,2023-01-23,07:00:00,food_dining,Kutch and Sons,35216,NY,0
+txn_0648,139.0,2023-01-03,15:00:00,misc_pos,Metc-Boehm,60733,FL,0
+txn_0649,106.34,2023-01-02,16:00:00,grocery_net,Krajcik-Schamberger,17493,IL,1
+txn_0650,34.51,2023-01-12,11:00:00,shopping_pos,Kutch and Sons,57315,IL,0
+txn_0651,613.12,2023-01-22,18:00:00,food_dining,Funk Group,17130,IL,0
+txn_0652,179.06,2023-01-22,12:00:00,entertainment,Krajcik-Schamberger,85986,NY,0
+txn_0653,139.92,2023-01-11,22:00:00,misc_pos,Bauch-Raynor,66396,NY,0
+txn_0654,410.9,2023-01-23,14:00:00,food_dining,Bauch-Raynor,38621,FL,0
+txn_0655,117.12,2023-01-19,10:00:00,misc_pos,Metc-Boehm,52431,WA,0
+txn_0656,157.33,2023-01-22,19:00:00,utilities,Durgan-Auer,93886,FL,0
+txn_0657,31.64,2023-01-26,11:00:00,grocery_net,Pacocha-Bauch,11893,WA,0
+txn_0658,86.4,2023-01-25,12:00:00,grocery_net,Weissnat Group,67724,WA,0
+txn_0659,136.91,2023-01-07,16:00:00,shopping_pos,Pacocha-Bauch,89481,FL,1
+txn_0660,336.34,2023-01-28,17:00:00,travel,Hessel LLC,92666,CA,0
+txn_0661,7.9,2023-01-14,03:00:00,grocery_net,Bauch-Raynor,46386,WA,0
+txn_0662,104.84,2023-01-22,20:00:00,travel,Kris-Ritchie,51203,TX,0
+txn_0663,143.97,2023-01-07,09:00:00,grocery_net,Funk Group,52832,TX,1
+txn_0664,54.08,2023-01-06,17:00:00,entertainment,Weissnat Group,32490,NY,0
+txn_0665,55.43,2023-01-17,03:00:00,misc_pos,Schmeler-Goldner,27027,FL,0
+txn_0666,68.76,2023-01-19,23:00:00,entertainment,Durgan-Auer,18947,FL,0
+txn_0667,67.58,2023-01-03,15:00:00,misc_pos,Stark-Batz,84286,FL,0
+txn_0668,43.43,2023-01-09,06:00:00,utilities,Boyer PLC,46483,WA,0
+txn_0669,176.36,2023-01-12,11:00:00,misc_pos,Kris-Ritchie,49133,NY,0
+txn_0670,96.6,2023-01-26,22:00:00,misc_pos,Boyer PLC,16533,WA,0
+txn_0671,77.11,2023-01-30,17:00:00,entertainment,Bauch-Raynor,50696,TX,0
+txn_0672,75.57,2023-01-07,19:00:00,misc_pos,Krajcik-Schamberger,13956,NY,0
+txn_0673,59.93,2023-01-06,11:00:00,misc_pos,Kris-Ritchie,59056,NY,1
+txn_0674,113.95,2023-01-22,23:00:00,misc_pos,Kerluke Inc,27857,NY,0
+txn_0675,225.47,2023-01-25,22:00:00,grocery_net,Boyer PLC,54116,FL,1
+txn_0676,86.72,2023-01-17,22:00:00,shopping_pos,Schmeler-Goldner,67608,TX,0
+txn_0677,126.39,2023-01-21,09:00:00,entertainment,Funk Group,87242,TX,0
+txn_0678,621.96,2023-01-19,02:00:00,travel,Kris-Ritchie,72217,NY,0
+txn_0679,20.59,2023-01-13,05:00:00,travel,Schmeler-Goldner,86946,FL,0
+txn_0680,71.21,2023-01-08,12:00:00,shopping_pos,Kutch and Sons,67174,IL,0
+txn_0681,179.31,2023-01-13,13:00:00,food_dining,Stark-Batz,75524,CA,0
+txn_0682,129.09,2023-01-01,11:00:00,entertainment,Kerluke Inc,45081,FL,0
+txn_0683,121.97,2023-01-12,17:00:00,grocery_net,Kerluke Inc,36299,TX,1
+txn_0684,325.38,2023-01-11,22:00:00,grocery_net,Pacocha-Bauch,89854,IL,1
+txn_0685,178.15,2023-01-11,12:00:00,health_beauty,DuBuque LLC,69213,NY,0
+txn_0686,30.14,2023-01-28,19:00:00,utilities,Durgan-Auer,69872,NY,0
+txn_0687,871.46,2023-01-26,02:00:00,utilities,DuBuque LLC,89823,WA,0
+txn_0688,25.55,2023-01-12,14:00:00,misc_pos,Hessel LLC,59646,IL,0
+txn_0689,120.56,2023-01-07,02:00:00,shopping_pos,Kris-Ritchie,48196,TX,1
+txn_0690,155.28,2023-01-01,08:00:00,utilities,Schmeler-Goldner,31042,FL,0
+txn_0691,86.68,2023-01-12,17:00:00,shopping_pos,Metc-Boehm,30918,NY,0
+txn_0692,187.38,2023-01-05,16:00:00,health_beauty,Hessel LLC,24745,FL,0
+txn_0693,196.95,2023-01-06,15:00:00,utilities,Bauch-Raynor,91533,NY,0
+txn_0694,111.79,2023-01-23,11:00:00,utilities,Cronin-Blick,61413,IL,0
+txn_0695,40.48,2023-01-23,05:00:00,grocery_net,Stark-Batz,27010,FL,0
+txn_0696,284.9,2023-01-01,14:00:00,travel,DuBuque LLC,93860,CA,0
+txn_0697,92.17,2023-01-19,23:00:00,misc_pos,Schmeler-Goldner,72766,FL,0
+txn_0698,106.57,2023-01-25,12:00:00,entertainment,Stark-Batz,50734,IL,0
+txn_0699,633.34,2023-01-17,12:00:00,entertainment,Weissnat Group,24678,NY,0
+txn_0700,263.21,2023-01-09,17:00:00,misc_pos,Stark-Batz,61448,IL,0
+txn_0701,19.8,2023-01-03,07:00:00,misc_pos,Cronin-Blick,15622,IL,0
+txn_0702,187.31,2023-01-13,23:00:00,food_dining,Kerluke Inc,60210,WA,0
+txn_0703,43.41,2023-01-02,10:00:00,food_dining,Kerluke Inc,22632,TX,0
+txn_0704,115.25,2023-01-19,09:00:00,grocery_net,Stark-Batz,47344,TX,1
+txn_0705,503.27,2023-01-23,07:00:00,food_dining,Weissnat Group,91441,CA,0
+txn_0706,17.84,2023-01-10,06:00:00,shopping_pos,Weissnat Group,57645,CA,0
+txn_0707,270.67,2023-01-15,08:00:00,entertainment,Pacocha-Bauch,10515,CA,0
+txn_0708,53.0,2023-01-05,19:00:00,shopping_pos,Krajcik-Schamberger,13332,NY,0
+txn_0709,37.37,2023-01-10,03:00:00,entertainment,Hessel LLC,83324,TX,0
+txn_0710,107.85,2023-01-11,20:00:00,grocery_net,Weissnat Group,48498,IL,1
+txn_0711,59.06,2023-01-04,12:00:00,misc_pos,Hessel LLC,22940,NY,0
+txn_0712,292.36,2023-01-21,06:00:00,utilities,Funk Group,27558,IL,0
+txn_0713,92.44,2023-01-20,17:00:00,travel,Funk Group,12795,CA,0
+txn_0714,137.7,2023-01-06,22:00:00,misc_pos,Schmeler-Goldner,87506,TX,0
+txn_0715,118.77,2023-01-19,04:00:00,utilities,Pacocha-Bauch,49867,FL,0
+txn_0716,118.66,2023-01-17,13:00:00,travel,Bauch-Raynor,15586,WA,0
+txn_0717,253.09,2023-01-25,16:00:00,shopping_pos,Cronin-Blick,93087,WA,1
+txn_0718,65.87,2023-01-17,09:00:00,shopping_pos,Pacocha-Bauch,38350,IL,0
+txn_0719,57.33,2023-01-24,05:00:00,food_dining,DuBuque LLC,27297,WA,0
+txn_0720,149.48,2023-01-30,18:00:00,shopping_pos,Durgan-Auer,23386,WA,1
+txn_0721,8.18,2023-01-21,15:00:00,misc_pos,Bauch-Raynor,31045,WA,0
+txn_0722,60.48,2023-01-01,12:00:00,grocery_net,Funk Group,12716,WA,0
+txn_0723,296.52,2023-01-13,21:00:00,shopping_pos,Kris-Ritchie,76151,FL,1
+txn_0724,123.2,2023-01-09,04:00:00,food_dining,Krajcik-Schamberger,64970,CA,0
+txn_0725,163.78,2023-01-15,19:00:00,shopping_pos,Weissnat Group,18802,NY,1
+txn_0726,945.66,2023-01-28,16:00:00,travel,Hessel LLC,57766,TX,0
+txn_0727,66.48,2023-01-27,05:00:00,travel,Krajcik-Schamberger,47425,NY,0
+txn_0728,162.26,2023-01-29,07:00:00,utilities,DuBuque LLC,20143,WA,0
+txn_0729,633.01,2023-01-30,01:00:00,grocery_net,Hessel LLC,72699,WA,1
+txn_0730,102.82,2023-01-14,05:00:00,travel,Hessel LLC,63639,FL,0
+txn_0731,7.56,2023-01-30,23:00:00,grocery_net,Cronin-Blick,74604,NY,0
+txn_0732,79.68,2023-01-11,16:00:00,misc_pos,Weissnat Group,99360,TX,1
+txn_0733,126.89,2023-01-17,05:00:00,misc_pos,Funk Group,39670,CA,0
+txn_0734,69.45,2023-01-10,04:00:00,grocery_net,Durgan-Auer,67608,FL,0
+txn_0735,275.84,2023-01-02,21:00:00,health_beauty,Weissnat Group,55212,WA,0
+txn_0736,109.83,2023-01-04,03:00:00,utilities,Kerluke Inc,85900,TX,0
+txn_0737,131.01,2023-01-09,09:00:00,food_dining,Kerluke Inc,95430,NY,0
+txn_0738,114.66,2023-01-24,23:00:00,misc_pos,DuBuque LLC,87239,TX,0
+txn_0739,61.23,2023-01-17,09:00:00,travel,Kris-Ritchie,98721,WA,1
+txn_0740,70.36,2023-01-07,09:00:00,misc_pos,Durgan-Auer,47333,TX,0
+txn_0741,667.95,2023-01-18,19:00:00,grocery_net,Cronin-Blick,77946,IL,1
+txn_0742,34.9,2023-01-24,18:00:00,misc_pos,Schmeler-Goldner,95119,NY,0
+txn_0743,198.97,2023-01-17,16:00:00,health_beauty,Kerluke Inc,80167,FL,0
+txn_0744,60.41,2023-01-09,18:00:00,food_dining,Kris-Ritchie,94577,CA,0
+txn_0745,9.38,2023-01-06,16:00:00,misc_pos,Funk Group,37094,CA,0
+txn_0746,99.3,2023-01-03,01:00:00,food_dining,Stark-Batz,28300,CA,0
+txn_0747,231.54,2023-01-01,04:00:00,health_beauty,Hessel LLC,26562,CA,0
+txn_0748,70.91,2023-01-28,15:00:00,misc_pos,Durgan-Auer,22352,NY,0
+txn_0749,98.38,2023-01-07,22:00:00,shopping_pos,Stark-Batz,14011,IL,0
+txn_0750,63.29,2023-01-16,13:00:00,health_beauty,Pacocha-Bauch,42769,TX,0
+txn_0751,20.08,2023-01-09,21:00:00,health_beauty,Schmeler-Goldner,18320,WA,0
+txn_0752,200.2,2023-01-26,22:00:00,travel,Kerluke Inc,92987,FL,0
+txn_0753,95.43,2023-01-23,12:00:00,food_dining,Krajcik-Schamberger,35279,FL,0
+txn_0754,112.18,2023-01-16,22:00:00,health_beauty,Funk Group,50860,TX,0
+txn_0755,52.66,2023-01-09,00:00:00,misc_pos,Hessel LLC,61880,FL,0
+txn_0756,237.72,2023-01-20,13:00:00,grocery_net,Stark-Batz,45333,TX,1
+txn_0757,98.24,2023-01-21,03:00:00,health_beauty,DuBuque LLC,65421,NY,0
+txn_0758,49.64,2023-01-16,23:00:00,food_dining,Weissnat Group,28984,WA,0
+txn_0759,72.98,2023-01-27,13:00:00,utilities,Kerluke Inc,30977,TX,0
+txn_0760,198.11,2023-01-11,00:00:00,misc_pos,Krajcik-Schamberger,77657,CA,0
+txn_0761,30.35,2023-01-24,12:00:00,grocery_net,Metc-Boehm,42167,WA,0
+txn_0762,147.37,2023-01-04,08:00:00,utilities,Cronin-Blick,25696,CA,0
+txn_0763,70.18,2023-01-21,10:00:00,misc_pos,Durgan-Auer,78244,TX,0
+txn_0764,228.17,2023-01-13,04:00:00,food_dining,Weissnat Group,88929,CA,0
+txn_0765,1659.41,2023-01-18,03:00:00,entertainment,Kerluke Inc,64675,FL,0
+txn_0766,82.78,2023-01-26,19:00:00,shopping_pos,Funk Group,23016,TX,0
+txn_0767,51.41,2023-01-12,16:00:00,shopping_pos,Boyer PLC,57691,CA,0
+txn_0768,8.17,2023-01-23,16:00:00,shopping_pos,Bauch-Raynor,29810,NY,0
+txn_0769,15.47,2023-01-30,21:00:00,entertainment,Durgan-Auer,19344,CA,1
+txn_0770,171.05,2023-01-29,07:00:00,misc_pos,Weissnat Group,14582,NY,0
+txn_0771,1214.92,2023-01-07,13:00:00,shopping_pos,Cronin-Blick,50096,TX,1
+txn_0772,67.87,2023-01-20,02:00:00,travel,Pacocha-Bauch,75603,IL,0
+txn_0773,190.29,2023-01-13,00:00:00,food_dining,Boyer PLC,30045,WA,0
+txn_0774,233.78,2023-01-04,15:00:00,entertainment,Boyer PLC,52919,TX,1
+txn_0775,22.15,2023-01-20,01:00:00,food_dining,Weissnat Group,11299,FL,0
+txn_0776,27.99,2023-01-14,03:00:00,misc_pos,Durgan-Auer,78367,FL,0
+txn_0777,83.82,2023-01-18,21:00:00,food_dining,Weissnat Group,30659,FL,0
+txn_0778,96.68,2023-01-19,15:00:00,travel,Durgan-Auer,44565,NY,0
+txn_0779,89.75,2023-01-26,02:00:00,travel,Kris-Ritchie,10534,IL,0
+txn_0780,128.47,2023-01-17,05:00:00,shopping_pos,Krajcik-Schamberger,56233,IL,1
+txn_0781,135.49,2023-01-23,02:00:00,utilities,Boyer PLC,34054,WA,0
+txn_0782,120.12,2023-01-09,01:00:00,health_beauty,Funk Group,82201,TX,0
+txn_0783,265.1,2023-01-04,06:00:00,food_dining,Kerluke Inc,40825,IL,0
+txn_0784,123.57,2023-01-12,01:00:00,shopping_pos,Kutch and Sons,31584,TX,1
+txn_0785,25.17,2023-01-09,11:00:00,grocery_net,Krajcik-Schamberger,12567,TX,0
+txn_0786,216.92,2023-01-21,09:00:00,food_dining,Kutch and Sons,19327,NY,0
+txn_0787,279.36,2023-01-12,20:00:00,health_beauty,Kutch and Sons,85057,WA,0
+txn_0788,42.67,2023-01-26,00:00:00,grocery_net,Funk Group,56501,WA,1
+txn_0789,18.58,2023-01-17,05:00:00,health_beauty,Funk Group,72514,TX,0
+txn_0790,64.32,2023-01-24,20:00:00,utilities,Durgan-Auer,26453,IL,0
+txn_0791,18.47,2023-01-12,19:00:00,grocery_net,Schmeler-Goldner,65087,TX,0
+txn_0792,10.63,2023-01-10,19:00:00,grocery_net,Cronin-Blick,56825,TX,0
+txn_0793,57.93,2023-01-08,06:00:00,entertainment,Funk Group,32785,TX,0
+txn_0794,200.98,2023-01-18,18:00:00,shopping_pos,Pacocha-Bauch,33548,WA,1
+txn_0795,41.13,2023-01-21,11:00:00,entertainment,Durgan-Auer,41625,NY,0
+txn_0796,200.56,2023-01-15,00:00:00,food_dining,Boyer PLC,91731,TX,0
+txn_0797,28.92,2023-01-12,00:00:00,utilities,Metc-Boehm,96807,TX,0
+txn_0798,8.68,2023-01-05,15:00:00,misc_pos,Durgan-Auer,87209,WA,0
+txn_0799,31.8,2023-01-02,11:00:00,misc_pos,Boyer PLC,37594,NY,0
+txn_0800,46.06,2023-01-05,01:00:00,food_dining,Metc-Boehm,81558,TX,0
+txn_0801,112.82,2023-01-15,08:00:00,food_dining,Cronin-Blick,78580,IL,0
+txn_0802,77.6,2023-01-14,20:00:00,grocery_net,Hessel LLC,10654,TX,0
+txn_0803,35.26,2023-01-21,03:00:00,utilities,Krajcik-Schamberger,70101,CA,0
+txn_0804,795.19,2023-01-23,04:00:00,misc_pos,Schmeler-Goldner,97892,IL,0
+txn_0805,65.98,2023-01-21,15:00:00,utilities,Pacocha-Bauch,23161,CA,1
+txn_0806,62.1,2023-01-28,00:00:00,utilities,Weissnat Group,20763,IL,0
+txn_0807,463.85,2023-01-02,13:00:00,misc_pos,Kutch and Sons,93788,TX,0
+txn_0808,60.75,2023-01-04,05:00:00,misc_pos,Kris-Ritchie,92464,CA,0
+txn_0809,132.67,2023-01-10,18:00:00,health_beauty,Bauch-Raynor,81051,WA,0
+txn_0810,334.02,2023-01-04,07:00:00,utilities,DuBuque LLC,29403,TX,0
+txn_0811,171.65,2023-01-02,22:00:00,health_beauty,Bauch-Raynor,44765,NY,0
+txn_0812,71.84,2023-01-16,09:00:00,travel,DuBuque LLC,82267,NY,0
+txn_0813,41.62,2023-01-27,15:00:00,grocery_net,Boyer PLC,90730,FL,0
+txn_0814,77.14,2023-01-23,05:00:00,grocery_net,Boyer PLC,84160,FL,0
+txn_0815,68.61,2023-01-15,14:00:00,health_beauty,Funk Group,78143,FL,0
+txn_0816,148.75,2023-01-28,16:00:00,utilities,Funk Group,49385,CA,0
+txn_0817,75.18,2023-01-03,03:00:00,health_beauty,Schmeler-Goldner,25728,WA,0
+txn_0818,35.79,2023-01-26,11:00:00,travel,Pacocha-Bauch,87654,WA,0
+txn_0819,124.11,2023-01-05,15:00:00,travel,Krajcik-Schamberger,69342,CA,0
+txn_0820,58.4,2023-01-20,03:00:00,food_dining,Cronin-Blick,90691,FL,0
+txn_0821,145.79,2023-01-27,03:00:00,entertainment,Schmeler-Goldner,67889,TX,0
+txn_0822,147.04,2023-01-26,04:00:00,travel,Hessel LLC,89369,WA,0
+txn_0823,104.76,2023-01-28,00:00:00,utilities,Kutch and Sons,92800,WA,0
+txn_0824,56.09,2023-01-11,05:00:00,utilities,Hessel LLC,40270,FL,0
+txn_0825,212.61,2023-01-24,13:00:00,entertainment,Kerluke Inc,59597,IL,0
+txn_0826,155.61,2023-01-24,15:00:00,entertainment,Kris-Ritchie,84710,NY,0
+txn_0827,84.71,2023-01-21,23:00:00,entertainment,Schmeler-Goldner,89790,WA,0
+txn_0828,258.26,2023-01-21,09:00:00,shopping_pos,Hessel LLC,59703,FL,1
+txn_0829,151.87,2023-01-23,12:00:00,health_beauty,Hessel LLC,97475,NY,0
+txn_0830,73.44,2023-01-29,16:00:00,grocery_net,Funk Group,72785,FL,0
+txn_0831,228.16,2023-01-10,09:00:00,health_beauty,Funk Group,92234,NY,0
+txn_0832,85.35,2023-01-07,04:00:00,grocery_net,Bauch-Raynor,97505,IL,0
+txn_0833,58.49,2023-01-13,07:00:00,food_dining,Funk Group,62611,WA,0
+txn_0834,137.5,2023-01-18,04:00:00,health_beauty,Durgan-Auer,69305,CA,0
+txn_0835,74.17,2023-01-03,10:00:00,utilities,Cronin-Blick,97318,CA,0
+txn_0836,79.37,2023-01-12,12:00:00,shopping_pos,Kris-Ritchie,75171,CA,0
+txn_0837,124.26,2023-01-15,09:00:00,grocery_net,Hessel LLC,98442,FL,1
+txn_0838,56.3,2023-01-27,17:00:00,health_beauty,Weissnat Group,76214,CA,0
+txn_0839,56.55,2023-01-07,01:00:00,travel,Metc-Boehm,31411,TX,0
+txn_0840,253.96,2023-01-19,07:00:00,health_beauty,Stark-Batz,45362,TX,0
+txn_0841,17.5,2023-01-25,19:00:00,travel,Pacocha-Bauch,29867,NY,0
+txn_0842,52.94,2023-01-04,22:00:00,health_beauty,Hessel LLC,34014,CA,0
+txn_0843,69.26,2023-01-10,11:00:00,travel,Stark-Batz,48507,TX,1
+txn_0844,88.95,2023-01-26,11:00:00,health_beauty,Krajcik-Schamberger,77600,NY,0
+txn_0845,234.51,2023-01-07,22:00:00,food_dining,Bauch-Raynor,75185,WA,0
+txn_0846,739.92,2023-01-18,04:00:00,misc_pos,Metc-Boehm,40111,FL,0
+txn_0847,37.79,2023-01-29,11:00:00,shopping_pos,Bauch-Raynor,68031,CA,0
+txn_0848,32.1,2023-01-19,05:00:00,food_dining,Kerluke Inc,59476,TX,1
+txn_0849,168.39,2023-01-24,20:00:00,shopping_pos,Hessel LLC,79093,NY,1
+txn_0850,69.67,2023-01-22,15:00:00,utilities,Kutch and Sons,90674,NY,0
+txn_0851,168.15,2023-01-27,12:00:00,health_beauty,Cronin-Blick,73749,CA,0
+txn_0852,283.22,2023-01-20,12:00:00,grocery_net,DuBuque LLC,51025,NY,1
+txn_0853,25.15,2023-01-15,21:00:00,misc_pos,Kris-Ritchie,61638,FL,0
+txn_0854,248.21,2023-01-25,08:00:00,entertainment,Funk Group,67836,NY,0
+txn_0855,99.31,2023-01-22,07:00:00,grocery_net,Boyer PLC,13407,IL,1
+txn_0856,92.05,2023-01-10,09:00:00,utilities,Kutch and Sons,64387,TX,0
+txn_0857,14.55,2023-01-02,12:00:00,travel,Hessel LLC,13880,NY,0
+txn_0858,115.69,2023-01-13,16:00:00,travel,Funk Group,53333,IL,0
+txn_0859,15.28,2023-01-20,21:00:00,misc_pos,Metc-Boehm,66920,NY,1
+txn_0860,234.46,2023-01-07,04:00:00,travel,DuBuque LLC,78369,WA,0
+txn_0861,148.01,2023-01-10,18:00:00,health_beauty,Kutch and Sons,40286,TX,0
+txn_0862,96.32,2023-01-09,12:00:00,health_beauty,DuBuque LLC,97876,NY,0
+txn_0863,37.94,2023-01-27,12:00:00,entertainment,Durgan-Auer,67241,TX,0
+txn_0864,109.49,2023-01-15,20:00:00,misc_pos,Schmeler-Goldner,42991,TX,0
+txn_0865,34.6,2023-01-29,21:00:00,entertainment,Weissnat Group,43785,FL,0
+txn_0866,217.4,2023-01-26,05:00:00,grocery_net,Kris-Ritchie,48090,FL,1
+txn_0867,123.76,2023-01-06,06:00:00,entertainment,Kerluke Inc,78653,TX,0
+txn_0868,118.91,2023-01-01,06:00:00,shopping_pos,Bauch-Raynor,71720,FL,1
+txn_0869,173.44,2023-01-02,18:00:00,travel,Bauch-Raynor,30689,WA,0
+txn_0870,76.07,2023-01-29,05:00:00,misc_pos,DuBuque LLC,58542,TX,0
+txn_0871,79.45,2023-01-06,14:00:00,grocery_net,Kutch and Sons,68032,FL,0
+txn_0872,206.7,2023-01-26,11:00:00,travel,Metc-Boehm,25620,WA,0
+txn_0873,50.1,2023-01-05,15:00:00,grocery_net,Weissnat Group,67602,NY,0
+txn_0874,176.44,2023-01-14,05:00:00,misc_pos,Boyer PLC,48104,FL,0
+txn_0875,82.18,2023-01-21,05:00:00,utilities,Funk Group,83927,FL,0
+txn_0876,1744.48,2023-01-09,15:00:00,grocery_net,DuBuque LLC,70686,WA,1
+txn_0877,106.26,2023-01-04,15:00:00,health_beauty,Hessel LLC,99452,WA,0
+txn_0878,75.18,2023-01-06,15:00:00,food_dining,Metc-Boehm,22446,WA,0
+txn_0879,261.33,2023-01-13,23:00:00,grocery_net,Stark-Batz,27948,FL,1
+txn_0880,137.74,2023-01-07,09:00:00,entertainment,Hessel LLC,22963,CA,0
+txn_0881,55.04,2023-01-27,20:00:00,grocery_net,Stark-Batz,91494,TX,0
+txn_0882,40.75,2023-01-21,05:00:00,entertainment,Metc-Boehm,88929,TX,0
+txn_0883,27.97,2023-01-20,15:00:00,utilities,Funk Group,33104,CA,0
+txn_0884,27.56,2023-01-12,21:00:00,utilities,Kris-Ritchie,69180,TX,0
+txn_0885,197.51,2023-01-03,09:00:00,travel,Durgan-Auer,60711,NY,0
+txn_0886,134.04,2023-01-25,14:00:00,utilities,Krajcik-Schamberger,46833,FL,0
+txn_0887,43.07,2023-01-03,04:00:00,shopping_pos,Pacocha-Bauch,73884,TX,1
+txn_0888,28.07,2023-01-05,00:00:00,misc_pos,Kerluke Inc,26559,TX,0
+txn_0889,65.9,2023-01-21,17:00:00,food_dining,Pacocha-Bauch,35251,NY,0
+txn_0890,42.68,2023-01-25,22:00:00,grocery_net,Pacocha-Bauch,68959,TX,0
+txn_0891,140.35,2023-01-22,18:00:00,utilities,Kutch and Sons,30183,FL,0
+txn_0892,94.17,2023-01-18,17:00:00,entertainment,Pacocha-Bauch,60639,CA,0
+txn_0893,189.19,2023-01-07,11:00:00,utilities,Pacocha-Bauch,11582,IL,1
+txn_0894,392.53,2023-01-14,08:00:00,shopping_pos,Krajcik-Schamberger,65856,IL,1
+txn_0895,76.4,2023-01-27,13:00:00,health_beauty,Weissnat Group,67184,FL,0
+txn_0896,37.59,2023-01-12,03:00:00,utilities,DuBuque LLC,59692,WA,0
+txn_0897,71.19,2023-01-26,16:00:00,entertainment,Bauch-Raynor,93049,TX,0
+txn_0898,56.08,2023-01-14,17:00:00,grocery_net,Cronin-Blick,31400,WA,0
+txn_0899,336.31,2023-01-18,17:00:00,food_dining,Hessel LLC,48328,CA,0
+txn_0900,298.64,2023-01-06,09:00:00,misc_pos,Bauch-Raynor,36028,TX,0
+txn_0901,26.89,2023-01-13,05:00:00,utilities,Boyer PLC,25043,WA,0
+txn_0902,70.47,2023-01-13,04:00:00,health_beauty,Kutch and Sons,19247,CA,0
+txn_0903,129.91,2023-01-29,11:00:00,misc_pos,Cronin-Blick,41362,TX,0
+txn_0904,67.98,2023-01-13,18:00:00,food_dining,Cronin-Blick,25078,NY,0
+txn_0905,47.45,2023-01-09,21:00:00,entertainment,DuBuque LLC,82255,NY,0
+txn_0906,66.52,2023-01-12,09:00:00,misc_pos,Kutch and Sons,10767,FL,0
+txn_0907,31.95,2023-01-22,05:00:00,travel,Cronin-Blick,50502,FL,0
+txn_0908,203.84,2023-01-10,16:00:00,food_dining,Kris-Ritchie,53723,CA,0
+txn_0909,133.17,2023-01-26,01:00:00,travel,Kris-Ritchie,12147,NY,1
+txn_0910,62.98,2023-01-02,07:00:00,entertainment,Krajcik-Schamberger,31304,CA,0
+txn_0911,119.07,2023-01-15,10:00:00,entertainment,Bauch-Raynor,79959,FL,1
+txn_0912,156.94,2023-01-10,17:00:00,shopping_pos,Cronin-Blick,87990,NY,1
+txn_0913,64.9,2023-01-01,18:00:00,entertainment,Bauch-Raynor,84094,TX,0
+txn_0914,41.67,2023-01-22,04:00:00,misc_pos,Kerluke Inc,45790,IL,1
+txn_0915,20.48,2023-01-11,00:00:00,travel,Kris-Ritchie,22305,TX,0
+txn_0916,101.19,2023-01-06,16:00:00,grocery_net,Weissnat Group,71313,CA,1
+txn_0917,122.23,2023-01-24,09:00:00,health_beauty,DuBuque LLC,96673,FL,0
+txn_0918,72.32,2023-01-14,05:00:00,entertainment,Cronin-Blick,90021,WA,0
+txn_0919,97.21,2023-01-19,21:00:00,health_beauty,Bauch-Raynor,81318,TX,0
+txn_0920,23.86,2023-01-02,19:00:00,travel,Stark-Batz,49832,IL,0
+txn_0921,125.06,2023-01-06,02:00:00,misc_pos,Boyer PLC,28562,TX,0
+txn_0922,26.34,2023-01-09,06:00:00,misc_pos,Bauch-Raynor,56451,NY,0
+txn_0923,161.68,2023-01-01,04:00:00,food_dining,Cronin-Blick,90986,NY,0
+txn_0924,45.88,2023-01-22,02:00:00,utilities,Weissnat Group,43123,FL,0
+txn_0925,42.09,2023-01-15,21:00:00,utilities,Bauch-Raynor,55406,TX,0
+txn_0926,41.63,2023-01-23,23:00:00,misc_pos,Bauch-Raynor,69557,FL,0
+txn_0927,113.27,2023-01-25,13:00:00,shopping_pos,Hessel LLC,91199,CA,1
+txn_0928,105.1,2023-01-25,20:00:00,travel,Metc-Boehm,39504,IL,0
+txn_0929,38.24,2023-01-04,11:00:00,utilities,Funk Group,60715,IL,0
+txn_0930,50.44,2023-01-12,06:00:00,food_dining,Bauch-Raynor,15057,WA,0
+txn_0931,197.18,2023-01-05,10:00:00,entertainment,Stark-Batz,39680,TX,0
+txn_0932,272.14,2023-01-23,10:00:00,food_dining,Schmeler-Goldner,39825,CA,1
+txn_0933,394.68,2023-01-21,04:00:00,travel,DuBuque LLC,35988,NY,0
+txn_0934,78.22,2023-01-25,01:00:00,grocery_net,DuBuque LLC,62127,TX,0
+txn_0935,0.5,2023-01-05,18:00:00,grocery_net,Kerluke Inc,91932,FL,0
+txn_0936,67.3,2023-01-25,12:00:00,travel,Metc-Boehm,65982,WA,0
+txn_0937,85.55,2023-01-08,23:00:00,entertainment,Krajcik-Schamberger,45031,TX,0
+txn_0938,50.97,2023-01-30,13:00:00,travel,Boyer PLC,10727,NY,0
+txn_0939,320.74,2023-01-13,17:00:00,travel,DuBuque LLC,70091,FL,0
+txn_0940,50.71,2023-01-24,09:00:00,grocery_net,Weissnat Group,23265,CA,0
+txn_0941,103.36,2023-01-16,22:00:00,food_dining,Kutch and Sons,19215,TX,0
+txn_0942,99.06,2023-01-17,20:00:00,grocery_net,Kerluke Inc,37626,CA,0
+txn_0943,101.67,2023-01-07,20:00:00,shopping_pos,Cronin-Blick,49500,TX,1
+txn_0944,188.23,2023-01-29,00:00:00,grocery_net,DuBuque LLC,85701,CA,1
+txn_0945,143.49,2023-01-03,05:00:00,shopping_pos,Bauch-Raynor,99719,IL,1
+txn_0946,192.73,2023-01-26,15:00:00,shopping_pos,Kris-Ritchie,35020,IL,1
+txn_0947,20.85,2023-01-08,15:00:00,misc_pos,Bauch-Raynor,53005,NY,0
+txn_0948,114.38,2023-01-04,10:00:00,misc_pos,Kutch and Sons,33535,CA,0
+txn_0949,12.93,2023-01-29,20:00:00,food_dining,Stark-Batz,58037,FL,0
+txn_0950,82.06,2023-01-06,04:00:00,grocery_net,Funk Group,20702,IL,0
+txn_0951,201.81,2023-01-27,23:00:00,travel,Cronin-Blick,94585,CA,0
+txn_0952,68.34,2023-01-13,23:00:00,utilities,Boyer PLC,90373,FL,0
+txn_0953,88.91,2023-01-08,02:00:00,grocery_net,Boyer PLC,19107,WA,0
+txn_0954,329.64,2023-01-28,20:00:00,health_beauty,Bauch-Raynor,62066,FL,0
+txn_0955,127.33,2023-01-15,11:00:00,shopping_pos,Funk Group,39086,FL,1
+txn_0956,130.08,2023-01-11,17:00:00,entertainment,Krajcik-Schamberger,13435,TX,0
+txn_0957,600.06,2023-01-11,18:00:00,travel,Metc-Boehm,45739,TX,0
+txn_0958,162.88,2023-01-30,22:00:00,misc_pos,Kutch and Sons,30365,WA,0
+txn_0959,34.99,2023-01-07,10:00:00,food_dining,Durgan-Auer,34596,TX,0
+txn_0960,248.19,2023-01-21,21:00:00,utilities,Bauch-Raynor,13771,NY,0
+txn_0961,46.39,2023-01-25,08:00:00,utilities,Cronin-Blick,97458,IL,0
+txn_0962,23.02,2023-01-17,16:00:00,shopping_pos,Durgan-Auer,69946,TX,0
+txn_0963,23.45,2023-01-07,16:00:00,travel,Krajcik-Schamberger,28653,NY,0
+txn_0964,145.02,2023-01-19,05:00:00,health_beauty,Weissnat Group,48231,WA,0
+txn_0965,86.84,2023-01-28,09:00:00,entertainment,Pacocha-Bauch,86154,TX,0
+txn_0966,392.14,2023-01-10,07:00:00,utilities,Schmeler-Goldner,94085,IL,0
+txn_0967,65.48,2023-01-02,04:00:00,travel,Krajcik-Schamberger,29462,NY,0
+txn_0968,54.6,2023-01-18,20:00:00,health_beauty,Krajcik-Schamberger,14581,NY,0
+txn_0969,155.83,2023-01-03,04:00:00,food_dining,Metc-Boehm,23163,TX,0
+txn_0970,6.43,2023-01-03,07:00:00,shopping_pos,Schmeler-Goldner,42214,IL,0
+txn_0971,139.4,2023-01-16,08:00:00,misc_pos,Bauch-Raynor,89731,WA,0
+txn_0972,61.45,2023-01-15,22:00:00,travel,Bauch-Raynor,68703,FL,1
+txn_0973,176.05,2023-01-14,14:00:00,shopping_pos,Kutch and Sons,47792,TX,1
+txn_0974,6.82,2023-01-09,04:00:00,shopping_pos,Metc-Boehm,23777,FL,0
+txn_0975,305.39,2023-01-09,01:00:00,health_beauty,Kris-Ritchie,67089,IL,0
+txn_0976,66.13,2023-01-22,04:00:00,utilities,Funk Group,24779,CA,0
+txn_0977,119.05,2023-01-20,10:00:00,grocery_net,Kris-Ritchie,67853,IL,1
+txn_0978,94.04,2023-01-25,07:00:00,health_beauty,Kerluke Inc,34161,CA,0
+txn_0979,121.86,2023-01-28,02:00:00,misc_pos,Pacocha-Bauch,34502,WA,0
+txn_0980,75.34,2023-01-07,07:00:00,utilities,Kris-Ritchie,38906,FL,0
+txn_0981,54.14,2023-01-02,07:00:00,food_dining,Kris-Ritchie,38511,NY,0
+txn_0982,256.8,2023-01-29,16:00:00,food_dining,Kerluke Inc,43172,TX,0
+txn_0983,75.54,2023-01-01,12:00:00,shopping_pos,Durgan-Auer,19491,CA,0
+txn_0984,1014.28,2023-01-12,10:00:00,shopping_pos,Stark-Batz,35496,CA,1
+txn_0985,47.71,2023-01-04,21:00:00,health_beauty,Kris-Ritchie,46390,IL,0
+txn_0986,45.52,2023-01-24,11:00:00,entertainment,Pacocha-Bauch,29276,NY,0
+txn_0987,250.01,2023-01-20,03:00:00,travel,Kris-Ritchie,46486,WA,0
+txn_0988,157.34,2023-01-07,22:00:00,utilities,Funk Group,37197,TX,0
+txn_0989,134.2,2023-01-12,23:00:00,grocery_net,Pacocha-Bauch,55712,TX,1
+txn_0990,139.41,2023-01-28,17:00:00,travel,Hessel LLC,95914,CA,0
+txn_0991,26.3,2023-01-23,12:00:00,health_beauty,Weissnat Group,36708,IL,0
+txn_0992,193.35,2023-01-13,04:00:00,health_beauty,Kris-Ritchie,78906,CA,0
+txn_0993,202.34,2023-01-07,12:00:00,shopping_pos,Weissnat Group,62772,TX,1
+txn_0994,121.76,2023-01-27,19:00:00,grocery_net,Durgan-Auer,57085,CA,1
+txn_0995,8.34,2023-01-27,16:00:00,entertainment,Boyer PLC,95468,TX,0
+txn_0996,145.18,2023-01-24,18:00:00,utilities,Kerluke Inc,21767,WA,0
+txn_0997,170.29,2023-01-17,22:00:00,food_dining,Schmeler-Goldner,32606,CA,0
+txn_0998,39.91,2023-01-18,06:00:00,grocery_net,Weissnat Group,27358,WA,0
+txn_0999,74.23,2023-01-25,21:00:00,utilities,Metc-Boehm,60493,IL,0

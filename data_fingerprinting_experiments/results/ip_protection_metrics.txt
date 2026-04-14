@@ -1,0 +1,13 @@
+IP Protection Evaluation Results
+========================================
+
+Privacy Metrics:
+mse: 0.162051
+mean_correlation_diff: 0.008909
+max_correlation_diff: 0.014283
+mean_variance_diff: 0.581268
+
+Utility Metrics:
+original_explained_variance: [0.8880159  0.07435007 0.03266394 0.00245659 0.00166014]
+fingerprinted_explained_variance: [0.9124288  0.04278823 0.03236254 0.00435963 0.00332911]
+pca_similarity: 0.999280
