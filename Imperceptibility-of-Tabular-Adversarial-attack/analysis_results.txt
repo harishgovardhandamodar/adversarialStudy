@@ -1,0 +1,380 @@
+# Imperceptibility Analysis Results
+## Tabular Adversarial Attacks: DeepFool, Carlini L2, FGSM L-inf
+
+### Dataset Size vs Results
+```
+=== DATASET SIZE vs RESULTS ===
+  adult          : n= 58176 | sr=70.8% | L2=0.457 | Sen=1.672 | Mahal=0.0848
+  german         : n=  1728 | sr=70.3% | L2=0.556 | Sen=0.891 | Mahal=0.1658
+  compas         : n= 12672 | sr=71.3% | L2=0.353 | Sen=1.594 | Mahal=0.0436
+  diabetes       : n=  1152 | sr=69.0% | L2=0.396 | Sen=0.806 | Mahal=0.0701
+  breast_cancer  : n=   576 | sr=84.9% | L2=0.977 | Sen=1.147 | Mahal=0.3597
+```
+
+### Global Correlation Across All 45 Combinations
+```
+=== GLOBAL CORRELATION (all 45 combos) ===
+  deepfool     / mean: Corr(L2,SR) = 0.930, Corr(Sen,SR) = 0.924, Corr(Mahal,SR) = 0.825
+  deepfool     / median: Corr(L2,SR) = 0.873, Corr(Sen,SR) = 0.928, Corr(Mahal,SR) = 0.782
+  carlini_l_2  / mean: Corr(L2,SR) = 0.233, Corr(Sen,SR) = -0.185, Corr(Mahal,SR) = 0.477
+  carlini_l_2  / median: Corr(L2,SR) = 0.779, Corr(Sen,SR) = 0.778, Corr(Mahal,SR) = 0.663
+  fgsm_l_inf   / mean: Corr(L2,SR) = 0.860, Corr(Sen,SR) = 0.945, Corr(Mahal,SR) = 0.942
+  fgsm_l_inf   / median: Corr(L2,SR) = 0.887, Corr(Sen,SR) = 0.924, Corr(Mahal,SR) = 0.947
+```
+
+### 24 Model-Attack Combinations (Global Stats)
+```
+=== MODEL × ATTACK COMBINATIONS (Global Stats) ===
+  deepfool      / LR   : SR=83.55%, L2_med=0.1814, Sen_med=0.6760, Mahal_med=0.0324
+  deepfool      / MLP  : SR=79.54%, L2_med=0.1555, Sen_med=0.9404, Mahal_med=0.0271
+  deepfool      / SVC  : SR=83.30%, L2_med=0.0945, Sen_med=0.3411, Mahal_med=0.0127
+  carlini_l_2   / LR   : SR=74.18%, L2_med=0.2198, Sen_med=0.7106, Mahal_med=0.0536
+  carlini_l_2   / MLP  : SR=70.00%, L2_med=0.3036, Sen_med=0.1690, Mahal_med=0.0386
+  carlini_l_2   / SVC  : SR=15.96%, L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  fgsm_l_inf    / LR   : SR=83.71%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / MLP  : SR=81.33%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / SVC  : SR=85.14%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  deepfool      / adult        : SR=84.42%, L2_med=0.2063, Sen_med=0.7090, Mahal_med=0.0172
+  deepfool      / german       : SR=81.18%, L2_med=0.1932, Sen_med=0.6049, Mahal_med=0.0130
+  deepfool      / compas       : SR=79.91%, L2_med=0.1776, Sen_med=0.6337, Mahal_med=0.0134
+  deepfool      / diabetes     : SR=74.96%, L2_med=0.1525, Sen_med=0.4946, Mahal_med=0.0112
+  deepfool      / breast_cancer: SR=97.55%, L2_med=0.3519, Sen_med=1.2523, Mahal_med=0.0715
+  carlini_l_2   / adult        : SR=43.37%, L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  carlini_l_2   / german       : SR=18.23%, L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  carlini_l_2   / compas       : SR=20.81%, L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  carlini_l_2   / diabetes     : SR=25.78%, L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  carlini_l_2   / breast_cancer: SR=4.69%,  L2_med=0.0000, Sen_med=0.0000, Mahal_med=0.0000
+  fgsm_l_inf    / adult        : SR=84.79%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / german       : SR=79.31%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / compas       : SR=80.01%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / diabetes     : SR=74.56%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+  fgsm_l_inf    / breast_cancer: SR=97.64%, L2_med=0.6000, Sen_med=2.8230, Mahal_med=0.1102
+```
+
+### Pairwise Attack Comparison on Adult
+```
+=== PAIRWISE ATTACK COMPARISON ON ADULT ===
+  LR: deepfool(SR=82.69%, L2_med=0.2096) vs fgsm_l_inf(SR=84.95%, L2_med=0.6000)
+    → SR diff = -2.26% | L2 ratio = 0.3x
+  LR: deepfool(SR=82.69%, L2_med=0.2096) vs deepfool(SR=82.69%, L2_med=0.2096)
+    → SR diff = +0.00% | L2 ratio = 1.0x
+  LR: carlini_l_2(SR=69.86%, L2_med=0.4098) vs deepfool(SR=82.69%, L2_med=0.2096)
+    → SR diff = -12.82% | L2 ratio = 2.0x
+  SVC: deepfool(SR=85.32%, L2_med=0.0915) vs fgsm_l_inf(SR=84.75%, L2_med=0.6000)
+    → SR diff = +0.57% | L2 ratio = 0.2x
+  SVC: deepfool(SR=85.32%, L2_med=0.0915) vs deepfool(SR=85.32%, L2_med=0.0915)
+    → SR diff = +0.00% | L2 ratio = 1.0x
+  SVC: carlini_l_2(SR=14.76%, L2_med=0.0000) vs deepfool(SR=85.32%, L2_med=0.0915)
+    → SR diff = -70.56% | L2 ratio = 0.0x
+```
+
+### SVC Carlini Resistance Deep Dive
+```
+=== SVC CARLINI RESISTANCE DEEP DIVE ===
+Total samples: 8256
+Success rate: 15.96%
+L2 distribution:
+  min=0.000000, max=0.129297
+  median=0.000000
+  25%ile=0.000000
+  50%ile=0.000000
+  75%ile=0.000000
+
+  adult: n=6464, SR=14.76%, median_L2=0.000
+
+  german: n=192, SR=18.23%, median_L2=0.000
+
+  compas: n=1408, SR=20.81%, median_L2=0.000
+
+  diabetes: n=128, SR=25.78%, median_L2=0.000
+
+  breast_cancer: n=64, SR=4.69%, median_L2=0.000
+
+=== ROBUST VS SENSITIVE L2 METRICS ===
+  deepfool     / mean: Corr(L2,SR) = 0.935
+  deepfool     / median: Corr(L2,SR) = 0.827
+  carlini_l_2  / mean: Corr(L2,SR) = -0.352
+  carlini_l_2  / median: Corr(L2,SR) = 0.754
+  fgsm_l_inf   / mean: Corr(L2,SR) = 0.797
+  fgsm_l_inf   / median: Corr(L2,SR) = 0.808
+```
+
+### The Imperceptibility Paradox
+```
+=== THE IMPERCEPTIBILITY PARADOX ===
+
+LR/adult — sorted by ROBUST L2 (median):
+      deepfool    : SR=82.69%, L2_med=0.2096, L2_mean=0.6355
+  ↑ carlini_l_2 : SR=69.86%, L2_med=0.4098, L2_mean=0.5217
+  ↑ fgsm_l_inf  : SR=84.95%, L2_med=0.6000, L2_mean=0.5644
+
+SVC/adult — sorted by ROBUST L2 (median):
+      carlini_l_2 : SR=14.76%, L2_med=0.0000, L2_mean=0.0006
+  ↑ deepfool    : SR=85.32%, L2_med=0.0915, L2_mean=0.1108
+  ↑ fgsm_l_inf  : SR=84.75%, L2_med=0.6000, L2_mean=0.5656
+
+LR/compas — sorted by ROBUST L2 (median):
+      carlini_l_2 : SR=69.46%, L2_med=0.1755, L2_mean=0.2426
+  ↑ deepfool    : SR=79.33%, L2_med=0.2447, L2_mean=0.4108
+  ↑ fgsm_l_inf  : SR=79.26%, L2_med=0.5419, L2_mean=0.5289
+
+SVC/compas — sorted by ROBUST L2 (median):
+      carlini_l_2 : SR=20.81%, L2_med=0.0000, L2_mean=0.0017
+  ↑ deepfool    : SR=79.76%, L2_med=0.2514, L2_mean=0.2360
+  ↑ fgsm_l_inf  : SR=79.76%, L2_med=0.5402, L2_mean=0.5314
+```
+
+### Paper-Ready Statistics
+```
+=== PAPER-READY STATISTICS ===
+
+deepfool successful attacks: n=20682
+  L2 < 0.1:         6794 (32.8%)
+  Sens < 0.5:       7832 (37.9%)
+  Mahal < 0.05:    14552 (70.4%)
+  ALL THREE:        6794 (32.8%)
+  Median L2:       0.1830
+  Median Sens:     0.7126
+  Median Mahal:    0.0157
+
+carlini_l_2 successful attacks: n=11305
+  L2 < 0.1:         2951 (26.1%)
+  Sens < 0.5:       4378 (38.7%)
+  Mahal < 0.05:     6106 (54.0%)
+  ALL THREE:        2951 (26.1%)
+  Median L2:       0.3077
+  Median Sens:     0.7431
+  Median Mahal:    0.0437
+
+FGSM L-inf successful attacks: n=16704
+  L2 < 0.1:         0 (0.0%)
+  Sens < 0.5:       963 (5.8%)
+  Mahal < 0.05:     0 (0.0%)
+  ALL THREE:        0 (0.0%)
+  Median L2:       0.6000
+  Median Sens:     2.8229
+  Median Mahal:    0.1102
+```
+
+### Model Robustness Hierarchy
+```
+=== MODEL ROBUSTNESS HIERARCHY (by average success rate) ===
+  SVC: avg success rate = 61.3%
+  MLP: avg success rate = 72.9%
+  LR: avg success rate = 78.7%
+
+Most effective attack per model:
+  LR: fgsm_l_inf (SR=83.7%)
+  MLP: deepfool (SR=79.5%)
+  SVC: deepfool (SR=85.1%)
+```
+
+### Dataset Vulnerability Profile
+```
+=== DATASET VULNERABILITY PROFILE ===
+  LR/adult: avg=79.2% | best=fgsm_l_inf=84.9% | worst=carlini_l_2=69.9%
+  MLP/adult: avg=71.7% | best=deepfool=85.2% | worst=carlini_l_2=45.2%
+  SVC/adult: avg=61.6% | best=deepfool=85.3% | worst=carlini_l_2=14.8%
+  LR/german: avg=78.1% | best=deepfool=81.2% | worst=carlini_l_2=72.4%
+  MLP/german: avg=72.6% | best=deepfool=79.2% | worst=carlini_l_2=62.0%
+  SVC/german: avg=60.1% | best=deepfool=81.2% | worst=carlini_l_2=18.2%
+  LR/compas: avg=76.0% | best=deepfool=79.3% | worst=carlini_l_2=69.5%
+  MLP/compas: avg=77.8% | best=fgsm_l_inf=80.8% | worst=carlini_l_2=72.1%
+  SVC/compas: avg=60.1% | best=deepfool=79.8% | worst=carlini_l_2=20.8%
+  LR/diabetes: avg=76.0% | best=deepfool=78.1% | worst=carlini_l_2=75.0%
+  MLP/diabetes: avg=71.9% | best=fgsm_l_inf=72.7% | worst=deepfool=71.1%
+  SVC/diabetes: avg=59.1% | best=deepfool=75.8% | worst=carlini_l_2=25.8%
+  LR/breast_cancer: avg=95.3% | best=deepfool=98.4% | worst=carlini_l_2=90.6%
+  MLP/breast_cancer: avg=92.2% | best=deepfool=96.9% | worst=carlini_l_2=82.8%
+  SVC/breast_cancer: avg=67.2% | best=deepfool=98.4% | worst=carlini_l_2=4.7%
+```
+
+### Carlini L2 Failure Breakdown
+```
+=== CARLINI L2 FAILURE: 13463 failed samples ===
+L2 == 0:     0 (0.0%)
+0 < L2 < 0.001: 10702 (79.5%)
+0.001 <= L2 < 0.01: 132
+0.01 <= L2 < 0.05: 510
+L2 >= 0.05: 2119
+
+SVC CARLINI L2 DETAIL
+L2 == 0: 0 (0.0%)
+  L2 < 0.0001: SR=14.6% (n=7969) vs L2 >= 0.0001: SR=53.0% (n=-7970)
+  L2 < 0.0010: SR=14.7% (n=7975) vs L2 >= 0.001: SR=53.0% (n=-7976)
+  L2 < 0.0100: SR=14.9% (n=8026) vs L2 >= 0.01: SR=51.7% (n=-8027)
+  L2 < 0.0500: SR=15.8% (n=8224) vs L2 >= 0.05: SR=50.0% (n=-8225)
+  L2 < 0.1000: SR=16.0% (n=8255) vs L2 >= 0.1: SR=100.0% (n=-8256)
+```
+
+### DeepFool Heavy Tail Breakdown
+```
+=== DEEPFOOL HEAVY TAIL BREAKDOWN ===
+Overall mean L2: 0.5396
+Top 10% mean L2: 3.0251 (5.6x overall)
+Top 10% of samples contribute 56.1% to the overall mean
+
+DeepFool success vs failure:
+  Success (n=20682): median=0.1830, mean=0.6264
+  Failed  (n=4086): median=0.0458, mean=0.0998
+```
+
+### Mahalanobis Distribution (successful attacks)
+```
+=== MAHALANOBIS DISTRIBUTION (successful attacks) ===
+  deepfool    : median=0.0157  IQR=[0.007, 0.075]  Corr(L2,Mahal)=0.941
+  carlini_l_2 : median=0.0437  IQR=[0.012, 0.096]  Corr(L2,Mahal)=0.914
+  fgsm_l_inf  : median=0.0819  IQR=[0.070, 0.082]  Corr(L2,Mahal)=0.802
+```
+
+### Sensitivity-L2 Correlation (successful)
+```
+=== SENSITIVITY-L2 CORRELATION (successful) ===
+  deepfool    : Corr(Sens, L2) = 0.908
+  carlini_l_2 : Corr(Sens, L2) = 0.939
+  fgsm_l_inf  : Corr(Sens, L2) = 0.394
+```
+
+### Dataset-Level Attack Effectiveness
+```
+=== DATASET-LEVEL ATTACK EFFECTIVENESS ===
+
+adult: overall SR=70.8%
+  deepfool    : 84.4%
+  carlini_l_2 : 43.3%
+  fgsm_l_inf  : 84.8%
+
+breast_cancer: overall SR=84.9%
+  deepfool    : 97.9%
+  carlini_l_2 : 59.4%
+  fgsm_l_inf  : 97.4%
+
+compas: overall SR=71.3%
+  deepfool    : 79.9%
+  carlini_l_2 : 54.1%
+  fgsm_l_inf  : 79.9%
+
+diabetes: overall SR=69.0%
+  deepfool    : 75.0%
+  carlini_l_2 : 57.6%
+  fgsm_l_inf  : 74.5%
+
+german: overall SR=70.3%
+  deepfool    : 80.6%
+  carlini_l_2 : 50.9%
+  fgsm_l_inf  : 79.3%
+```
+
+### Sensitivity Distribution Shapes
+```
+=== SENSITIVITY DISTRIBUTION SHAPES ===
+
+deepfool:
+  Mean=1.999 vs Median=0.713 (280.5%)
+  Q5=0.0466, Q25=0.3054, Q50=0.7126, Q75=2.6610, Q95=8.5796
+
+carlini_l_2:
+  Mean=1.269 vs Median=0.743 (170.7%)
+  Q5=0.0000, Q25=0.2332, Q50=0.7431, Q75=1.6454, Q95=5.2028
+
+fgsm_l_inf:
+  Mean=2.546 vs Median=2.823 (90.2%)
+  Q5=0.9966, Q25=2.8229, Q50=2.8229, Q75=2.8229, Q95=3.2774
+```
+
+### Paired T-Tests and Wilcoxon Tests
+```
+=== PAIRED T-TESTS: ATTACK VS ATTACK (success rate) ===
+
+LR:
+  deepfool vs fgsm_l_inf: mean_sr = 82.7% vs 84.9% (diff=-2.3%) | t=-5.58, p=2.51e-08
+  deepfool vs carlini_l_2: mean_sr = 82.7% vs 69.9% (diff=+12.8%) | t=20.96, p=2.15e-94
+  carlini_l_2 vs fgsm_l_inf: mean_sr = 69.9% vs 84.9% (diff=-15.1%) | t=-33.56, p=9.27e-228
+
+MLP:
+  deepfool vs fgsm_l_inf: mean_sr = 85.2% vs 84.7% (diff=+0.6%) | t=2.88, p=3.94e-03
+  deepfool vs carlini_l_2: mean_sr = 85.2% vs 45.2% (diff=+40.0%) | t=58.61, p=0.00e+00
+  carlini_l_2 vs fgsm_l_inf: mean_sr = 45.2% vs 84.7% (diff=-39.5%) | t=-58.95, p=0.00e+00
+
+SVC:
+  deepfool vs fgsm_l_inf: mean_sr = 85.3% vs 84.7% (diff=+0.6%) | t=6.10, p=1.12e-09
+  deepfool vs carlini_l_2: mean_sr = 85.3% vs 14.8% (diff=+70.6%) | t=82.27, p=0.00e+00
+  carlini_l_2 vs fgsm_l_inf: mean_sr = 14.8% vs 84.7% (diff=-70.0%) | t=-81.41, p=0.00e+00
+
+=== PAIRED WILCOXON TESTS (L2, successful only) ===
+  LR: deepfool vs fgsm_l_inf: Wilcoxon p=7.97e-09, Mann-Whitney U p=8.74e-25
+  LR: deepfool vs carlini_l_2: Wilcoxon p=0.00e+00, Mann-Whitney U p=3.68e-192
+  LR: carlini_l_2 vs fgsm_l_inf: Wilcoxon p=1.14e-37, Mann-Whitney U p=1.39e-06
+  MLP: deepfool vs fgsm_l_inf: Wilcoxon p=4.14e-28, Mann-Whitney U p=1.98e-34
+  MLP: deepfool vs carlini_l_2: Wilcoxon p=1.18e-137, Mann-Whitney U p=2.48e-206
+  MLP: carlini_l_2 vs fgsm_l_inf: Wilcoxon p=3.28e-198, Mann-Whitney U p=5.97e-281
+  SVC: deepfool vs fgsm_l_inf: Wilcoxon p=0.00e+00, Mann-Whitney U p=0.00e+00
+  SVC: deepfool vs carlini_l_2: Wilcoxon p=7.32e-03, Mann-Whitney U p=1.49e-02
+  SVC: carlini_l_2 vs fgsm_l_inf: Wilcoxon p=2.55e-16, Mann-Whitney U p=1.04e-30
+```
+
+### Per-Sample Agreement (SVC)
+```
+=== PER-SAMPLE AGREEMENT (SVC) ===
+
+adult (n=5478):
+  Both on: 5478 (100.0%)
+  Only DeepFool on: 0 (0.0%)
+  Only FGSM on: 0 (0.0%)
+  Neither: 0 (0.0%)
+
+breast_cancer (n=63):
+  Both on: 63 (100.0%)
+  Only DeepFool on: 0 (0.0%)
+  Only FGSM on: 0 (0.0%)
+  Neither: 0 (0.0%)
+
+compas (n=1123):
+  Both on: 1123 (100.0%)
+  Only DeepFool on: 0 (0.0%)
+  Only FGSM on: 0 (0.0%)
+  Neither: 0 (0.0%)
+```
+
+### Mahalanobis-L2 Scatter Analysis
+```
+=== MAHALANOBIS-L2 SCATTER ANALYSIS ===
+
+deepfool:
+  Corr(Mahal, L2): 0.941
+  Corr(log1p(Mahal), log1p(L2)): 0.894
+  L2 IQR ratio (Q75/Q25): 8.5
+  Mahal IQR ratio (Q75/Q25): 10.6
+
+carlini_l_2:
+  Corr(Mahal, L2): 0.914
+  Corr(log1p(Mahal), log1p(L2)): 0.931
+  L2 IQR ratio (Q75/Q25): 7.2
+  Mahal IQR ratio (Q75/Q25): 8.0
+
+fgsm_l_inf:
+  Corr(Mahal, L2): 0.802
+  Corr(log1p(Mahal), log1p(L2)): 0.755
+  L2 IQR ratio (Q75/Q25): 1.1
+  Mahal IQR ratio (Q75/Q25): 1.2
+```
+
+### Sensitivity Heavy Tail
+```
+=== SENSITIVITY HEAVY TAIL ===
+
+deepfool:
+  Mean: 1.999
+  Top 10% of Sens value contribution: 0.837 (41.9%)
+  Sens Q5=0.0466, Q50=0.7126, Q95=8.5796
+
+carlini_l_2:
+  Mean: 1.269
+  Top 10% of Sens value contribution: 0.508 (40.1%)
+  Sens Q5=0.0000, Q50=0.7431, Q95=5.2028
+
+fgsm_l_inf:
+  Mean: 2.546
+  Top 10% of Sens value contribution: 0.326 (12.8%)
+  Sens Q5=0.9966, Q50=2.8229, Q95=3.2774
+```
