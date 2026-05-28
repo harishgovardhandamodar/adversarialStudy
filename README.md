@@ -22,9 +22,46 @@ The repository is organized into several distinct studies:
    - Models different attack scenarios based on adversary knowledge levels
 
 4. **Data Fingerprinting and Similarity Detection**
-   - Analyzes credit card transaction data to identify patterns and similarities
-   - Uses data fingerprinting techniques for pattern recognition
-   - Implements similarity detection using PCA, cosine similarity, and clustering
+    - Analyzes credit card transaction data to identify patterns and similarities
+    - Uses data fingerprinting techniques for pattern recognition
+    - Implements similarity detection using PCA, cosine similarity, and clustering
+
+5. **Imperceptibility of Tabular Adversarial Attacks**
+    - Comprehensive framework for generating adversarial examples on tabular data
+    - Implements 9 attack algorithms (FGSM, MIM, PGD, BIM, DeepFool, C&W, HopSkipJump, LowProFool, Boundary)
+    - Evaluates perturbations across 7 dimensions: L1/L2/Linf, sparsity, realistic range, sensitivity, Mahalanobis distance
+    - Supports 6 tabular datasets and 7 model types
+
+6. **Membership Inference Attacks against GNNs**
+    - Demonstrates membership inference attacks targeting GNN fraud detectors
+    - Includes synthetic data generation, target model training (GCN/MLP), and attack model MLP
+    - Evaluates whether a given sample was part of the model's training set
+    - Privacy study on bank transaction classification
+
+## Setup
+
+This project uses a unified `requirements.txt` compatible with [uv](https://github.com/astral-sh/uv), a fast Python package installer and resolver.
+
+```bash
+# Create virtual environment
+uv venv .venv
+
+# Activate the virtual environment
+# Linux/macOS:
+source .venv/bin/activate
+
+# Windows:
+.venv\Scripts\activate
+
+# Install all dependencies
+uv pip install -r requirements.txt
+```
+
+Alternatively, use pip:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Key Features
 
